@@ -15,6 +15,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import SiteFooter from "@/components/site-footer";
 
 /**
  * Marketing/Landing page demo - professional landing page template.
@@ -233,51 +234,6 @@ export default function MarketingDemo() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t bg-muted/30">
-        <div className="mx-auto max-w-7xl px-6 py-12">
-          <div className="grid gap-8 md:grid-cols-4">
-            <div>
-              <h3 className="mb-4 font-semibold">Product</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Documentation</li>
-                <li>Changelog</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="mb-4 font-semibold">Company</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>About</li>
-                <li>Blog</li>
-                <li>Careers</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="mb-4 font-semibold">Resources</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Community</li>
-                <li>Help Center</li>
-                <li>Status</li>
-                <li>API Reference</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="mb-4 font-semibold">Legal</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Security</li>
-                <li>Compliance</li>
-              </ul>
-            </div>
-          </div>
-          <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-            <p>© 2025 Zo Computer. This is a demo marketing page template.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
+      <SiteFooter /></div>
   );
 }

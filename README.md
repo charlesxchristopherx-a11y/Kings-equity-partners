@@ -6,6 +6,24 @@ This file provides guidance when working with code in this repository. The READM
 
 ---
 
+## Current Business Direction
+
+The homepage now functions as a strategic landing page for a distressed-property deal-finding system. The current product focus is:
+- sourcing foreclosure, tax, probate, eviction, code-enforcement, and absentee-owner leads
+- enriching leads with skip tracing, valuation, and ownership data
+- scoring deals by equity, motivation, and response likelihood
+- moving qualified leads into assignments, double closes, or direct acquisitions
+
+### Practical vendor stack and planning assumptions
+
+The homepage includes a planning model with realistic 2026 vendor categories and cost ranges:
+- lead sources: county data, list brokers, and property data platforms
+- enrichment and outreach: skip tracing, dialers, SMS, and voicemail tools
+- automation and analysis: CRM, workflow automation, and AI scoring
+
+The ROI model is intentionally directional. It is meant to help determine whether a list purchase or outreach campaign is worth funding before capital is committed.
+
+
 # Documentation
 
 This is a **Zo Site** - a web application running on a user's Zo computer that combines:
