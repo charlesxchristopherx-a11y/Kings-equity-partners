@@ -36,7 +36,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       "You MUST send an email immediately using the Gmail connection.",
       "Do NOT ask questions or draft — send it now.",
       "",
-      `To: charlesxchristopherx@gmail.com`,
+      `To: charlesxchristopherx@gmail.com, ${email}`,
       `Subject: ${subject}`,
       "Body:",
       emailBody,
