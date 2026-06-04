@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Rich navy background -->
+  <rect width="120" height="120" rx="16" fill="#1a2744"/>
+  <!-- Interlocked K E P with serif styling -->
+  <!-- K -->
+  <text x="18" y="90" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#c9a84c">K</text>
+  <!-- E centered -->
+  <text x="49" y="90" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#c9a84c">E</text>
+  <!-- P -->
+  <text x="80" y="90" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#c9a84c">P</text>
+  <!-- Crown element above E -->
+  <path d="M58 18 L54 26 L52 22 L54 28 L58 32 L62 28 L64 22 L62 26 Z" fill="#c9a84c" opacity="0.9"/>
+</svg>

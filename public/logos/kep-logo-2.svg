@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Deep black background -->
+  <rect width="120" height="120" rx="16" fill="#0a0a0a"/>
+  <!-- K -->
+  <text x="22" y="88" font-family="Arial Black, Impact, sans-serif" font-size="58" font-weight="900" fill="#ffffff" letter-spacing="-3">K</text>
+  <!-- E with gold accent -->
+  <text x="56" y="88" font-family="Arial Black, Impact, sans-serif" font-size="58" font-weight="900" fill="#ffffff" letter-spacing="-3">E</text>
+  <!-- P with gold accent -->
+  <text x="90" y="88" font-family="Arial Black, Impact, sans-serif" font-size="58" font-weight="900" fill="#ffffff" letter-spacing="-3">P</text>
+  <!-- Gold underline bar for each letter -->
+  <rect x="12" y="94" width="18" height="4" rx="2" fill="#c9a84c"/>
+  <rect x="46" y="94" width="18" height="4" rx="2" fill="#c9a84c"/>
+  <rect x="80" y="94" width="18" height="4" rx="2" fill="#c9a84c"/>
+  <!-- Crown micro detail at top -->
+  <rect x="20" y="18" width="80" height="2" rx="1" fill="#c9a84c" opacity="0.6"/>
+</svg>

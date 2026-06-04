@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Dark navy background -->
+  <rect width="120" height="120" rx="16" fill="#0d1b2a"/>
+  <!-- Gold crown/gavel accent line -->
+  <rect x="16" y="24" width="88" height="3" rx="1.5" fill="#c9a84c"/>
+  <!-- KEP in bold block letters -->
+  <text x="60" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="#c9a84c" text-anchor="middle" letter-spacing="-2">KEP</text>
+  <!-- Subtle crown motif dots -->
+  <circle cx="60" cy="20" r="4" fill="#c9a84c"/>
+</svg>

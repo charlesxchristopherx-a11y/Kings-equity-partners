@@ -7,6 +7,7 @@ import BlogPage from "./pages/blog";
 import BlogPostPage from "./pages/blog-post";
 import DisclaimerPage from "./pages/disclaimer";
 import PrivacyPage from "./pages/privacy";
+import TermsPage from "./pages/terms";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/disclaimer" element={<DisclaimerPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/terms" element={<TermsPage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
