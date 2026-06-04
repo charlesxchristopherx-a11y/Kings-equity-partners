@@ -13,6 +13,12 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       return Response.json({ error: "Missing required fields." }, { status: 400 });
     }
 
+    const zoToken = context.env.ZO_CLIENT_IDENTITY_TOKEN || "";
+    if (!zoToken) {
+      console.error("ZO_CLIENT_IDENTITY_TOKEN not set in environment");
+      return Response.json({ error: "Server configuration error. Please call us directly." }, { status: 500 });
+    }
+
     const subject = `New Surplus Assessment: ${formerOwnerName} — ${propertyAddress}`;
     const emailBody = [
       "**New Surplus Assessment Request**",
@@ -36,7 +42,8 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       "You MUST send an email immediately using the Gmail connection.",
       "Do NOT ask questions or draft — send it now.",
       "",
-      `To: charlesxchristopherx@gmail.com, ${email}`,
+      `To: charles@kingsequitypartners.com`,
+      `Cc: chris@kingsequitypartners.com`,
       `Subject: ${subject}`,
       "Body:",
       emailBody,
@@ -45,7 +52,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     const zoResponse = await fetch("https://api.zo.computer/zo/ask", {
       method: "POST",
       headers: {
-        "Authorization": context.env.ZO_CLIENT_IDENTITY_TOKEN,
+        "Authorization": zoToken,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
@@ -59,6 +66,29 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       console.error("Zo API error:", zoResponse.status, errText);
       return Response.json({ error: "Email delivery failed. Please call us directly." }, { status: 502 });
     }
+
+    // Send second email to chris@kingsequitypartners.com
+    const instruction2 = [
+      "You MUST send an email immediately using the Gmail connection.",
+      "Do NOT ask questions or draft — send it now.",
+      "",
+      `To: chris@kingsequitypartners.com`,
+      `Subject: ${subject}`,
+      "Body:",
+      emailBody,
+    ].join("\n");
+
+    await fetch("https://api.zo.computer/zo/ask", {
+      method: "POST",
+      headers: {
+        "Authorization": zoToken,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        input: instruction2,
+        model_name: "zo:deepseek/deepseek-v4-pro",
+      }),
+    });
 
     return Response.json({ success: true });
   } catch (err) {
