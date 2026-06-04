@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { IconPhone, IconMail, IconMapPin } from "@tabler/icons-react";
 
-const PHONE = "954.518.3374";
+const PHONE = "(727) 758-4543";
 const EMAIL = "charles@kingsequitypartners.com";
 const ADDRESS = "7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702";
 
@@ -21,7 +21,7 @@ export default function SiteFooter() {
               Florida tax deed surplus recovery. We help former property owners recover funds owed to them by law — at no upfront cost.
             </p>
             <div className="mt-4 flex flex-col gap-2 text-sm">
-              <a href={`tel:${PHONE.replace(/\./g, "")}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+              <a href={`tel:${PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <IconPhone className="h-4 w-4 text-primary shrink-0" />
                 {PHONE}
               </a>

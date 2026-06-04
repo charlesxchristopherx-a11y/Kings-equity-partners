@@ -109,7 +109,7 @@ export default function PrivacyPage() {
             <h3 className="text-sm font-semibold text-foreground mb-3">King's Equity Partners, LLC</h3>
             <div className="text-sm text-muted-foreground space-y-1">
               <p>7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702</p>
-              <p>Phone: 954.518.3374</p>
+              <p>Phone: (727) 758-4543</p>
               <p>Email: charles@kingsequitypartners.com</p>
             </div>
           </div>

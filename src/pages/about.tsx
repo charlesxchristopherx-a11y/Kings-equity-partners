@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import SiteFooter from "@/components/site-footer";
 
-const PHONE = "954.518.3374";
+const PHONE = "(727) 758-4543";
 const EMAIL = "charles@kingsequitypartners.com";
 const ADDRESS = "7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702";
 
@@ -181,6 +181,7 @@ export default function AboutPage() {
       </section>
 
       {/* Footer */}
-      <SiteFooter /></div>
+      <SiteFooter />
+    </div>
   );
 }

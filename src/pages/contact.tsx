@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { IconChevronRight, IconAlertCircle, IconCheck, IconPhone, IconMail, IconMapPin, IconX } from "@tabler/icons-react";
 import SiteFooter from "@/components/site-footer";
 
-const PHONE = "954.518.3374";
+const PHONE = "(727) 758-4543";
 const EMAIL = "charles@kingsequitypartners.com";
 const ADDRESS = "7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702";
 
@@ -65,7 +65,7 @@ export default function ContactPage() {
       </section>
       <section className="border-b bg-muted/20 py-6">
         <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">
-          <a href={`tel:${PHONE.replace(/\./g, "")}`} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"><IconPhone className="h-4 w-4 text-primary" /> {PHONE}</a>
+          <a href={`tel:${PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"><IconPhone className="h-4 w-4 text-primary" /> {PHONE}</a>
           <a href={`mailto:${EMAIL}`} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"><IconMail className="h-4 w-4 text-primary" /> {EMAIL}</a>
           <div className="flex items-center gap-2 text-sm text-muted-foreground"><IconMapPin className="h-4 w-4 text-primary" /> {ADDRESS}</div>
         </div>

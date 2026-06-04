@@ -61,7 +61,7 @@ export default function TermsPage() {
             <div className="text-sm space-y-1">
               <p><strong>King's Equity Partners, LLC</strong></p>
               <p>7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702</p>
-              <p>Phone: 954.518.3374</p>
+              <p>Phone: (727) 758-4543</p>
               <p>Email: charles@kingsequitypartners.com</p>
             </div>
 
@@ -75,7 +75,7 @@ export default function TermsPage() {
               <li><strong>Message frequency may vary.</strong> The number of messages you receive depends on your case activity.</li>
               <li><strong>Message and data rates may apply.</strong> Check with your mobile carrier for details on your plan.</li>
               <li><strong>Opt-out:</strong> Reply STOP to opt out of SMS messages at any time. After texting STOP, you will receive one final confirmation message and no further messages will be sent.</li>
-              <li><strong>Help:</strong> Reply HELP for help or contact us at charles@kingsequitypartners.com or 954.518.3374.</li>
+              <li><strong>Help:</strong> Reply HELP for help or contact us at charles@kingsequitypartners.com or (727) 758-4543.</li>
               <li><strong>Consent is not a condition of purchase.</strong> You do not need to consent to SMS messages to use our services.</li>
             </ul>
 
@@ -108,7 +108,7 @@ export default function TermsPage() {
             <h3 className="text-sm font-semibold text-foreground mb-3">King's Equity Partners, LLC</h3>
             <div className="text-sm text-muted-foreground space-y-1">
               <p>7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702</p>
-              <p>Phone: 954.518.3374</p>
+              <p>Phone: (727) 758-4543</p>
               <p>Email: charles@kingsequitypartners.com</p>
             </div>
           </div>
@@ -116,6 +116,7 @@ export default function TermsPage() {
       </section>
 
       {/* Footer */}
-      <SiteFooter /></div>
+      <SiteFooter />
+    </div>
   );
 }
