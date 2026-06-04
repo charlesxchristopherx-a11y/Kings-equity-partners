@@ -2,12 +2,15 @@
 
 ## Site
 
-- **Live URL**: https://kings-equity-partners-charleschristopher.zocomputer.io
+- **Live URL**: https://www.kingsequitypartners.com (hosted on Cloudflare Pages)
 - **Repo**: https://github.com/charlesxchristopherx-a11y/Kings-equity-partners
 - **Local path**: `/home/workspace/kings-equity-partners`
 - **Framework**: React + TypeScript + Vite + Tailwind + shadcn/ui
-- **Backend**: Hono server (`server.ts`) with `POST /api/lead` endpoint
-- **Publish**: `publish_site("/home/workspace/kings-equity-partners", public="true")`
+- **Hosting**: Cloudflare Pages (static) — auto-deploys on git push to main
+- **Build command** (Cloudflare Pages): `vite build`
+- **Build output directory**: `dist`
+- **Backend**: Hono server (`server.ts`) is for local dev ONLY. On Cloudflare Pages the site is static. Form submissions need a Cloudflare Pages Function or external API (not yet implemented).
+- **Deploy**: `git push` — Cloudflare Pages auto-deploys. Do NOT use `publish_site`.
 
 ## Blog Updates
 
@@ -20,12 +23,10 @@ Blog posts are stored as static data in `src/data/blog-posts.ts`. To add a new b
 5. Import both `Link` and `Button` components if referencing internal pages in the content (use raw HTML `<a href="...">` for URLs within markdown content)
 6. Sort is automatic — newest first by date
 
-After editing blog posts, publish:
+After editing blog posts, deploy:
 ```bash
 cd /home/workspace/kings-equity-partners && git add src/data/blog-posts.ts && git commit -m "New blog post: <title>" && git push
-
-# Then publish site to deploy:
-publish_site("/home/workspace/kings-equity-partners", public="true")
+# Cloudflare Pages auto-deploys from GitHub — no publish_site needed
 ```
 
 ## SMS Compliance (June 2026)
