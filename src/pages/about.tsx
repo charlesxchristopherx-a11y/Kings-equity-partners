@@ -96,7 +96,7 @@ export default function AboutPage() {
             <span className="text-primary">Recovering What Law Says Is Yours.</span>
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            KING'S EQUITY PARTNERS L.L.C. was founded on the observation that surplus funds from Florida tax deed sales go unclaimed at an extraordinary rate — simply because the people owed the money never learn about it in time.
+            KING'S EQUITY PARTNERS L.L.C. was founded on the observation that surplus funds from tax deed and foreclosure sales go unclaimed at an extraordinary rate — simply because the people owed the money never learn about it in time.
           </p>
         </div>
       </section>
@@ -127,7 +127,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="mb-6 text-2xl font-bold tracking-tight">Our Mission</h2>
           <p className="text-lg leading-relaxed text-muted-foreground italic">
-            "To ensure that Florida former property owners never lose their legal right to surplus funds simply because they never received notice — and to recover those funds efficiently, transparently, and at no upfront cost to the claimant."
+            "To ensure that former property owners never lose their legal right to surplus funds simply because they never received notice — and to recover those funds efficiently, transparently, and at no upfront cost to the claimant."
           </p>
         </div>
       </section>
@@ -140,11 +140,11 @@ export default function AboutPage() {
             {[
               {
                 title: "We Are Not a Law Firm",
-                desc: "KING'S EQUITY PARTNERS L.L.C., LLC is not a law firm and does not provide legal advice. All clients are advised in writing that they may file claims directly with the Clerk of Court at no cost. For matters requiring legal representation, we retain licensed Florida attorneys at company expense.",
+                desc: "KING'S EQUITY PARTNERS L.L.C., LLC is not a law firm and does not provide legal advice. All clients are advised in writing that they may file claims directly with the Clerk of Court at no cost. For matters requiring legal representation, we retain licensed attorneys at company expense.",
               },
               {
-                title: "Compliant with Florida Statute § 197.582",
-                desc: "All surplus recovery services are conducted in strict accordance with Florida law governing the disbursement of tax deed sale proceeds.",
+                title: "Compliant with Statute § 197.582",
+                desc: "All surplus recovery services are conducted in strict accordance with law governing the disbursement of tax deed sale proceeds.",
               },
               {
                 title: "Split Disbursement by Default",

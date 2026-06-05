@@ -18,7 +18,7 @@ export default function SiteFooter() {
               <span className="text-lg font-semibold">King's Equity Partners</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Florida tax deed surplus recovery. We help former property owners recover funds owed to them by law — at no upfront cost.
+              Tax deed surplus recovery. We help former property owners recover funds owed to them by law — at no upfront cost.
             </p>
             <div className="mt-4 flex flex-col gap-2 text-sm">
               <a href={`tel:${PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">

@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "Is this legal?",
-    a: "Yes. Florida Statute § 197.582 expressly permits third-party claims via Assignment of Beneficial Interest. We are not a law firm and do not provide legal advice.",
+    a: "Yes. State law in most jurisdictions expressly permits third-party claims via Assignment of Beneficial Interest. We are not a law firm and do not provide legal advice.",
   },
   {
     q: "What if there are liens on the property?",
@@ -131,14 +131,14 @@ export default function HomePage() {
             <div>
               <Badge variant="outline" className="mb-5 border-primary/40 text-primary">
                 <IconMapPin className="mr-1 size-3" />
-                Florida Surplus Recovery
+                National Surplus Recovery
               </Badge>
               <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl leading-tight">
                 Your Surplus Funds Are Being Held.{" "}
                 <span className="text-primary">You May Not Know.</span>
               </h1>
               <p className="mb-4 text-lg text-muted-foreground leading-relaxed">
-                When a Florida property sells at a tax deed auction for more than the taxes owed — or when a lender forecloses on a property and the sale generates surplus funds — the excess, sometimes tens of thousands of dollars, is held by the Clerk of Court. The former owner has a legal right to claim it.
+                When a property sells at a tax deed auction for more than the taxes owed — or when a lender forecloses on a property and the sale generates surplus funds — the excess, sometimes tens of thousands of dollars, is held by the Clerk of Court. The former owner has a legal right to claim it.
               </p>
               <p className="mb-8 text-lg text-muted-foreground leading-relaxed">
                 You have <strong className="text-foreground">120 days</strong> from the Clerk's notice to file. Most people never receive that notice. We find those funds and help you recover them — at no upfront cost.
@@ -148,7 +148,7 @@ export default function HomePage() {
                 {[
                   "No upfront fees. Our fee is payable only after we recover money for you.",
                   "Your funds are sent directly to you once we initiate recovery.",
-                  "Florida Statute § 197.582 compliant.",
+                  "Compliant with all applicable",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-3">
                     <div className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10">
@@ -273,7 +273,7 @@ export default function HomePage() {
               {
                 step: "01",
                 title: "We Find the Funds",
-                desc: "We monitor Florida county Clerk of Court records daily to identify properties that generated surplus at tax deed auction.",
+                desc: "We monitor county Clerk of Court records daily to identify properties that generated surplus at tax deed and foreclosure auctions.",
                 icon: IconMapPin,
               },
               {

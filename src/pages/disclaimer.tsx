@@ -56,21 +56,22 @@ export default function DisclaimerPage() {
           <h1 className="mb-8 text-3xl font-bold tracking-tight">Disclaimer</h1>
           <div className="prose prose-sm max-w-none text-muted-foreground space-y-6 leading-relaxed">
             <p><strong>Not a Law Firm.</strong> King's Equity Partners, LLC is not a law firm and does not provide legal advice. Nothing on this website constitutes legal advice or the formation of an attorney-client relationship.</p>
-            <p><strong>Claims Management Only.</strong> King's Equity Partners, LLC provides surplus claims management assistance. We are not attorneys and do not practice law. For legal advice, please consult a licensed Florida attorney.</p>
+            <p><strong>Claims Management Only.</strong> King's Equity Partners, LLC provides surplus claims management assistance. We are not attorneys and do not practice law. For legal advice, please consult a licensed attorney in your state.</p>
             <p><strong>No Guarantee of Recovery.</strong> Surplus fund recovery is subject to statutory deadlines, Clerk processing procedures, lien status, and competing claims. Past results do not guarantee future recovery. We do not guarantee any specific outcome or dollar amount.</p>
             <p><strong>Right to File Directly.</strong> All clients are advised in writing that they may file surplus claims directly with the Clerk of Court at no cost. Use of our services is entirely voluntary.</p>
             <p><strong>Fees.</strong> Our fee is a 25% contingency on recovered surplus funds. If no funds are recovered, no fee is owed. In counties offering split disbursement, the Clerk issues two separate checks: 75% to the client and 25% to King's Equity Partners, LLC directly.</p>
-            <p><strong>Florida Statute § 197.582.</strong> All services are provided in accordance with Florida Statute § 197.582 governing the disbursement of tax deed sale proceeds.</p>
+            <p><strong>Surplus Reco</strong></p>
             <p><strong>Accuracy of Information.</strong> While we make reasonable efforts to ensure the accuracy of information on this website, we make no warranties that the content is current, complete, or free of errors. Surplus amounts are approximate and subject to the Clerk's final determination.</p>
-            <p><strong>Unauthorized Practice of Law.</strong> King's Equity Partners, LLC does not engage in the practice of law. For any matter requiring legal representation, including contested claims or competing claimant disputes, we retain licensed Florida attorneys at company expense.</p>
+            <p><strong>Unauthorized Practice of Law.</strong> King's Equity Partners, LLC does not engage in the practice of law. For any matter requiring legal representation, including contested claims or competing claimant disputes, we retain licensed attorneys at company expense.</p>
           </div>
           <div className="mt-10 pt-8 border-t">
-            <p className="text-sm text-muted-foreground">Last updated: April 2026. King's Equity Partners, LLC — Miami, Florida.</p>
+            <p className="text-sm text-muted-foreground">Last updated: April 2026. King's Equity Partners, LLC.</p>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <SiteFooter /></div>
+      <SiteFooter />
+    </div>
   );
 }

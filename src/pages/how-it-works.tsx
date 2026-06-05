@@ -25,8 +25,8 @@ const steps = [
   {
     number: "01",
     title: "We Identify Your Property",
-    desc: "Our automated pipeline monitors Florida county Clerk of Court records daily. When a property sells at tax deed auction for more than the outstanding taxes, we flag it as a potential surplus case. We then identify who owned the property at the time of the sale.",
-    detail: "We search across all Florida counties, focusing on high-volume markets where surplus amounts tend to be largest.",
+    desc: "Our automated pipeline monitors county Clerk of Court records daily. When a property sells at tax deed auction for more than the outstanding taxes, we flag it as a potential surplus case. We then identify who owned the property at the time of the sale.",
+    detail: "We search across all counties across multiple states, focusing on high-volume markets where surplus amounts tend to be largest.",
   },
   {
     number: "02",
@@ -169,12 +169,12 @@ export default function HowItWorksPage() {
               {
                 icon: IconClock,
                 title: "120-Day Deadline",
-                desc: "Florida law gives you 120 days from the Clerk's Notice of Surplus to file. If that window closes, the right to the funds is typically lost forever. Our entire pipeline is urgency-driven.",
+                desc: "State law gives you 120 days from the Clerk's Notice of Surplus to file. If that window closes, the right to the funds is typically lost forever. Our entire pipeline is urgency-driven.",
               },
               {
                 icon: IconShieldCheck,
                 title: "Split Disbursement",
-                desc: "In most Florida counties, the Clerk can send your 75% directly to you and our 25% directly to us. You never have to trust us with your money. Ask us about this before you work with anyone.",
+                desc: "In most jurisdictions, the Clerk can send your 75% directly to you and our 25% directly to us. You never have to trust us with your money. Ask us about this before you work with anyone.",
               },
               {
                 icon: IconSearch,
@@ -229,6 +229,7 @@ export default function HowItWorksPage() {
       </section>
 
       {/* Footer */}
-      <SiteFooter /></div>
+      <SiteFooter />
+    </div>
   );
 }

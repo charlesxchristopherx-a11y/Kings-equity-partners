@@ -66,7 +66,7 @@ export default function TermsPage() {
             </div>
 
             <h2 className="text-lg font-semibold text-foreground mt-8">2. Services</h2>
-            <p>King's Equity Partners, LLC provides surplus funds claims management assistance for Florida tax deed sales. We are not a law firm and do not provide legal advice. All clients are advised that they may file surplus claims directly with the Clerk of Court at no cost.</p>
+            <p>King's Equity Partners, LLC provides surplus funds claims management assistance for tax deed and foreclosure surplus sales nationwide. We are not a law firm and do not provide legal advice. All clients are advised that they may file surplus claims directly with the Clerk of Court at no cost.</p>
 
             <h2 className="text-lg font-semibold text-foreground mt-8">3. SMS Text Messaging Program</h2>
             <p>By providing your phone number and opting in to receive text messages from King's Equity Partners, you agree to the following:</p>
@@ -80,7 +80,7 @@ export default function TermsPage() {
             </ul>
 
             <h2 className="text-lg font-semibold text-foreground mt-8">4. No Legal Advice</h2>
-            <p>Nothing on this website constitutes legal advice or the formation of an attorney-client relationship. King's Equity Partners, LLC provides claims management assistance only. For legal advice, please consult a licensed Florida attorney.</p>
+            <p>Nothing on this website constitutes legal advice or the formation of an attorney-client relationship. King's Equity Partners, LLC provides claims management assistance only. For legal advice, please consult a licensed attorney in your state.</p>
 
             <h2 className="text-lg font-semibold text-foreground mt-8">5. Fees</h2>
             <p>Our fee is a 25% contingency on recovered surplus funds. If no funds are recovered, no fee is owed. In counties offering split disbursement, the Clerk issues two separate checks: 75% to the client and 25% to King's Equity Partners, LLC directly. All fees are disclosed in writing before any agreement is signed.</p>
@@ -91,14 +91,14 @@ export default function TermsPage() {
             <h2 className="text-lg font-semibold text-foreground mt-8">7. Right to File Directly</h2>
             <p>All clients are advised in writing that they may file surplus claims directly with the Clerk of Court at no cost. Use of our services is entirely voluntary.</p>
 
-            <h2 className="text-lg font-semibold text-foreground mt-8">8. Florida Statute § 197.582</h2>
-            <p>All services are provided in accordance with Florida Statute § 197.582 governing the disbursement of tax deed sale proceeds. The 120-day statutory deadline to file a claim runs from the date of the Clerk's Notice of Surplus.</p>
+            <h2 className="text-lg font-semibold text-foreground mt-8">8. Surplus Recovery Statutes</h2>
+            <p>All services are provided in accordance with applicable state surplus recovery statutes governing the disbursement of tax deed and foreclosure sale proceeds. Deadlines vary by state.</p>
 
             <h2 className="text-lg font-semibold text-foreground mt-8">9. Accuracy of Information</h2>
             <p>While we make reasonable efforts to ensure the accuracy of information on this website, we make no warranties that the content is current, complete, or free of errors. Surplus amounts are approximate and subject to the Clerk's final determination.</p>
 
             <h2 className="text-lg font-semibold text-foreground mt-8">10. Unauthorized Practice of Law</h2>
-            <p>King's Equity Partners, LLC does not engage in the practice of law. For any matter requiring legal representation, including contested claims or competing claimant disputes, we retain licensed Florida attorneys at company expense.</p>
+            <p>King's Equity Partners, LLC does not engage in the practice of law. For any matter requiring legal representation, including contested claims or competing claimant disputes, we retain licensed attorneys at company expense.</p>
 
             <h2 className="text-lg font-semibold text-foreground mt-8">11. Changes to These Terms</h2>
             <p>We may update these Terms &amp; Conditions from time to time. Any changes will be posted on this page with an updated effective date. Continued use of our services after changes constitutes acceptance of the revised terms.</p>

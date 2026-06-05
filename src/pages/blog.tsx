@@ -65,7 +65,7 @@ export default function BlogPage() {
             <div className="h-px flex-1 bg-accent/30" />
           </div>
           <h1 className="text-2xl font-bold text-primary-foreground tracking-tight">Surplus Recovery Insights</h1>
-          <p className="text-sm text-primary-foreground/60 mt-2">Plain-language guidance on Florida tax deed surplus recovery and your legal rights.</p>
+          <p className="text-sm text-primary-foreground/60 mt-2">Plain-language guidance on tax deed surplus recovery and your legal rights, nationwide.</p>
         </div>
       </section>
 
