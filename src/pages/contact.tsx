@@ -22,7 +22,7 @@ export default function ContactPage() {
     phone: "",
     email: "",
     additionalInfo: "",
-    consent: false,
+    smsConsent: false,
   });
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
@@ -34,7 +34,20 @@ export default function ContactPage() {
       setError("Please fill in all required fields.");
       return;
     }
-    setSubmitted(true);
+    try {
+      const res = await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error((data as { error?: string }).error || "Submission failed");
+      }
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Something went wrong. Please call us directly.");
+    }
   };
 
   return (

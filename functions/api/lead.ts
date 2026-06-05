@@ -1,23 +1,21 @@
-declare const ZO_CLIENT_IDENTITY_TOKEN: string;
-
 interface Env {
   ZO_CLIENT_IDENTITY_TOKEN: string;
-  ZO_API_SECRET?: string;
 }
 
-export const onRequestPost: PagesFunction<Env> = async (context) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const onRequestPost = async (context: any) => {
   try {
-    const body: Record<string, string> = await context.request.json();
-    const { propertyAddress, formerOwnerName, phone, email, caseNumber, surplusAmount, additionalInfo } = body;
+    const body: Record<string, string | boolean> = await context.request.json();
+    const { propertyAddress, formerOwnerName, phone, email, additionalInfo, smsConsent } = body as Record<string, string>;
 
     if (!propertyAddress || !formerOwnerName || !phone || !email) {
       return Response.json({ error: "Missing required fields." }, { status: 400 });
     }
 
-    const zoToken = ZO_CLIENT_IDENTITY_TOKEN || "";
+    const zoToken = context.env.ZO_CLIENT_IDENTITY_TOKEN;
     if (!zoToken) {
-      console.error("ZO_CLIENT_IDENTITY_TOKEN not set");
-      return Response.json({ error: "Server configuration error." }, { status: 500 });
+      console.error("ZO_CLIENT_IDENTITY_TOKEN not configured");
+      return Response.json({ error: "Server configuration error. Please call us directly." }, { status: 500 });
     }
 
     const subject = `New Surplus Assessment: ${formerOwnerName} — ${propertyAddress}`;
@@ -28,23 +26,21 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       `- Name: ${formerOwnerName}`,
       `- Phone: ${phone}`,
       `- Email: ${email}`,
+      `- SMS Consent: ${smsConsent ? "Yes" : "No"}`,
       "",
       "**Property Info:**",
       `- Address: ${propertyAddress}`,
-      `- Case Number: ${caseNumber || "Not provided"}`,
-      `- Surplus Amount: ${surplusAmount || "Not provided"}`,
       additionalInfo ? `\n**Additional Info:**\n${additionalInfo}` : "",
       "",
       "---",
       "Submitted via kingsequitypartners.com",
-    ].join("\n");
+    ].filter(Boolean).join("\n");
 
     const instruction = [
-      "You MUST send an email immediately using the Gmail connection.",
-      "Do NOT ask questions or draft — send it now.",
+      "Send an email using the Gmail connection now.",
       "",
       `To: charlesxchristopherx@gmail.com`,
-      "Cc: charleskingiii29@gmail.com (C. King)",
+      `Cc: charleskingiii29@gmail.com`,
       `Subject: ${subject}`,
       "Body:",
       emailBody,
@@ -58,7 +54,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
       },
       body: JSON.stringify({
         input: instruction,
-        model_name: "zo:deepseek/deepseek-v4-pro",
+        model_name: "byok:4e9ac6e2-e29f-4677-9537-041605831867",
       }),
     });
 
@@ -71,6 +67,6 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     return Response.json({ success: true });
   } catch (err) {
     console.error("Lead function error:", err);
-    return Response.json({ error: "Internal server error." }, { status: 500 });
+    return Response.json({ error: "Internal server error. Please call us directly." }, { status: 500 });
   }
 };
