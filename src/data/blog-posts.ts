@@ -490,6 +490,202 @@ If you have received notice that your surplus claim is being held due to a compe
     category: "Education",
     tags: ["competing claims", "surplus funds", "disbursement"],
   },
+  {
+    slug: "surplus-funds-nationwide",
+    title: "Surplus Funds Beyond Florida: A National Overview",
+    excerpt:
+      "Tax deed and foreclosure surplus exist in nearly every state. If you owned property that sold for more than you owed, you may be entitled to the excess — regardless of where you lived.",
+    content: `
+While Florida's surplus recovery framework is the most well-known — thanks to Florida Statute § 197.582 — surplus funds are not exclusive to Florida. Nearly every state has some form of surplus or excess proceeds statute. If your property sold at a tax sale or foreclosure auction for more than was owed, the excess belongs to you by law.
+
+## How Surplus Works Nationwide
+
+The mechanics are similar across states:
+
+1. **A property is sold** at auction — either a tax deed sale or a mortgage foreclosure
+2. **The sale price exceeds the debt** — the winning bid is more than the taxes owed (tax sale) or the mortgage balance (foreclosure)
+3. **The surplus is held** — typically by the county clerk, sheriff, or trustee
+4. **The former owner must claim it** — within a statutory deadline that varies by state
+
+## Surplus Sources by Type
+
+**Tax Deed / Tax Sale Surplus (most common)**
+
+When a property sells at a tax auction for more than the outstanding tax debt, the county holds the overage. States that allow third-party claims include Florida, Texas, Georgia, Illinois, Indiana, Ohio, and many others. Deadlines range from 90 days to 3 years depending on the state.
+
+**Foreclosure Surplus (growing opportunity)**
+
+When a lender forecloses and the property sells at auction for more than the mortgage balance, the former owner is entitled to the surplus. This happens frequently in appreciating markets where equity has built up before the foreclosure. Most former owners never claim these funds because they assume losing the house means losing everything.
+
+**Mortgage Overages (lesser known)**
+
+When a mortgage is paid off — whether through refinance, sale, or foreclosure — and the escrow or payoff exceeds the balance, an overage is created. These funds may be held by the lender, servicer, or county records office and are subject to state unclaimed property laws.
+
+## The National Opportunity
+
+The surplus recovery industry began in Florida because of its well-developed statutory framework. But the same opportunity exists across the country. At King's Equity Partners, we are expanding our operations to identify and recover surplus funds nationwide — wherever they are held.
+
+If you owned property anywhere in the United States that was sold at auction, contact us for a free assessment. The money is yours by law. Let us help you claim it.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-06-01",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus funds", "national", "tax deed", "foreclosure"],
+  },
+  {
+    slug: "foreclosure-surplus-explained",
+    title: "Foreclosure Surplus: What Happens When Your Lender Sells for More Than You Owe",
+    excerpt:
+      "If your home was foreclosed and sold for more than the mortgage balance, you may be entitled to tens of thousands of dollars — and most people never claim it.",
+    content: `
+When people hear "foreclosure," they think it means losing everything. That is not always true. If the lender sells your property at auction for more than what you owed, the excess — the surplus — is legally yours.
+
+## The Foreclosure Surplus Misonception
+
+The most common belief is: "The bank took my house, so they took everything." In reality, the bank is only entitled to recover the amount you owe plus allowable fees and costs. If the auction price exceeds that total, the law says the surplus belongs to the former homeowner — not the bank, not the buyer, and not the county.
+
+## How It Works
+
+Let's say you owed $150,000 on a mortgage. The property is foreclosed and sold at auction for $220,000. After the bank takes their $150,000 (plus fees), approximately $65,000 remains. That $65,000 is your surplus.
+
+The trustee or sheriff handling the sale is required to deposit the surplus with the court or county. The former owner — you — has a legal right to claim it.
+
+## Why Most People Never Claim It
+
+The problem is notification. After foreclosure, the former owner has often moved. The notice of surplus is mailed to the last known address — which may be the foreclosed property or an address the lender has on file. If you didn't update your mailing address after leaving, you likely never received notice.
+
+Meanwhile, the clock is ticking. Deadlines vary by state — typically 6 months to 3 years — and once the deadline passes, the funds may escheat to the state or county permanently.
+
+## Who Else May Have a Claim
+
+The situation becomes more complex when there are junior lienholders — a second mortgage, a home equity line, a judgment lien, or unpaid property taxes. These parties may also have claims against the surplus. In most jurisdictions, the former owner's claim has priority, but lienholders who file timely may be entitled to a portion.
+
+## How We Help
+
+Our firm identifies foreclosure surplus cases across multiple states and helps former owners navigate the claims process. We handle the title review, lien assessment, documentation, and filing. If multiple claimants are involved, we negotiate on your behalf.
+
+The process is contingency-based. If we don't recover your funds, you owe nothing.
+
+If you lost a home to foreclosure in the last 3 years — anywhere in the United States — contact us. You may be owed money you don't even know about.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-06-02",
+    readTime: "6 min",
+    category: "National",
+    tags: ["foreclosure", "surplus funds", "national", "mortgage overage"],
+  },
+  {
+    slug: "how-surplus-funds-become-unclaimed-property",
+    title: "How Surplus Funds Become Unclaimed Property and How to Track Them Down",
+    excerpt:
+      "Every year, millions of dollars in unclaimed surplus funds escheat to state treasuries. Here's how the escheatment process works and what it means for former property owners.",
+    content: `
+When surplus funds from a tax sale or foreclosure go unclaimed past the statutory deadline, they do not simply disappear. Instead, they escheat — a legal term meaning they are transferred to the state government for safekeeping. But "safekeeping" often means that getting the money back becomes significantly harder.
+
+## The Escheatment Pipeline
+
+The typical timeline looks like this:
+
+1. **Property is sold at auction** — generating surplus funds
+2. **Clerk or trustee holds the funds** — typically for 90 days to 3 years, depending on state law
+3. **Notice is sent** — to the former owner's last known address
+4. **Deadline passes** — if no claim is filed within the statutory window
+5. **Funds escheat to the state** — transferred to the state's unclaimed property division
+6. **Former owner must file a claim with the state** — typically a more involved process than filing with the county
+
+## State-by-State Differences
+
+Every state handles escheatment differently. Some states have robust online databases where you can search for unclaimed funds by name. Others require written requests with notarized documentation. Processing times range from weeks to over a year.
+
+The key variables by state:
+- **Holding period** before escheatment
+- **Required documentation** to reclaim (proof of identity, proof of ownership, death certificates for heirs)
+- **Processing timeline** for state-level claims
+- **Whether third-party assignees** can file on behalf of the former owner
+
+## Why Escheated Funds Are Harder to Recover
+
+When funds are held at the county level, the process is relatively straightforward — the Clerk's office knows the property, the case number, and the circumstances of the sale. Once funds escheat to the state, the trail goes cold. The state's unclaimed property division treats the funds generically — as a dollar amount attached to a name — without the rich context of property records, auction results, and title history that exists at the county level.
+
+This makes it essential to file your claim **before** the escheatment deadline. At King's Equity Partners, our monitoring systems track deadlines across multiple states and prioritize cases approaching escheatment.
+
+## How to Search for Unclaimed Funds
+
+If you suspect you may have unclaimed surplus from a former property, start with:
+
+1. **Your state's unclaimed property website** — search by name and former addresses
+2. **MissingMoney.com** — a multi-state database endorsed by NAUPA
+3. **County Clerk or Sheriff's office** — for funds still held at the county level
+4. **Court records** — surplus from judicial foreclosures may be held by the court
+
+## We Can Help
+
+Our firm tracks unclaimed surplus funds across the country. Contact us for a free assessment. If you are owed money, we will find it — and we only get paid if you do.
+
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-06-03",
+    readTime: "6 min",
+    category: "National",
+    tags: ["escheatment", "unclaimed property", "state treasury", "surplus funds"],
+  },
+  {
+    slug: "king-equity-partners-goes-national",
+    title: "King's Equity Partners Goes National: What This Means for Surplus Recovery",
+    excerpt:
+      "We are expanding our surplus recovery operations beyond Florida to help former property owners across the country claim the funds they are owed.",
+    content: `
+After establishing a strong track record in Florida surplus recovery, King's Equity Partners is proud to announce our expansion to additional states. We now identify and recover surplus funds from tax deed sales, foreclosure auctions, and mortgage overages nationwide.
+
+## Why We're Expanding
+
+The surplus recovery problem is not unique to Florida. Across the country:
+
+- **Over $5 billion** in unclaimed surplus funds sit in county and state accounts
+- **Fewer than 5%** of eligible former owners ever file claims
+- **Most statutory deadlines are missed** due to lack of notification
+- **State escheatment laws** vary widely, creating confusion for claimants
+
+Florida gave us the legal framework and operational experience to build an efficient recovery process. Now we are bringing that same approach to other states.
+
+## What Changes and What Stays the Same
+
+**What is new:**
+- We now monitor surplus records in multiple states, not just Florida
+- Our network includes local counsel and title partners across new jurisdictions
+- Our assessment process accounts for each state's specific statutory requirements
+
+**What has not changed:**
+- No upfront fees. We are paid only when we recover funds for you.
+- 25% contingency fee with split disbursement where available
+- You always have the right to file directly at no cost
+- Professional title review before any claim is filed
+- Transparent process with clear communication at every step
+
+## States We Are Actively Operating In
+
+Our current operational footprint includes Florida, Georgia, Texas, Illinois, Ohio, Indiana, and Maryland, with additional states being added each quarter.
+
+If your property was in a state not listed above, contact us anyway — we may already be evaluating that jurisdiction or can advise you on the best path forward.
+
+## What This Means for Former Property Owners
+
+If you owned property anywhere in the United States that was sold at auction — whether tax deed or foreclosure — and you suspect surplus funds may exist:
+
+1. **Contact us for a free assessment** — we will research whether funds are being held
+2. **No obligation** — the assessment is free and you decide whether to proceed
+3. **Fast response** — we review public records and respond within one business day
+
+The money is yours by law. We exist to make sure you receive it.
+
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-06-04",
+    readTime: "4 min",
+    category: "Company News",
+    tags: ["national", "expansion", "surplus funds", "company news"],
+  },
 ];
 
 export function getBlogPosts(): BlogPost[] {

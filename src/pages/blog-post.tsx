@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { IconMenu, IconX, IconArrowLeft } from "@tabler/icons-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { getBlogPost, getBlogPosts } from "@/data/blog-posts";
 import SiteFooter from "@/components/site-footer";
 
@@ -13,6 +13,10 @@ export default function BlogPostPage() {
   const post = slug ? getBlogPost(slug) : undefined;
   const allPosts = getBlogPosts();
   const related = allPosts.filter((p) => p.slug !== slug).slice(0, 3);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -101,7 +105,7 @@ export default function BlogPostPage() {
 
               {/* CTA */}
               <div className="mt-12 p-6 bg-primary/5 rounded-lg border border-primary/10 text-center">
-                <p className="mb-4 text-sm text-muted-foreground">Think you may be owed surplus funds from a Florida property?</p>
+                <p className="mb-4 text-sm text-muted-foreground">Think you may be owed surplus funds from a former property?</p>
                 <Link to="/contact"><Button>Get a Free Assessment</Button></Link>
               </div>
             </div>
@@ -128,6 +132,7 @@ export default function BlogPostPage() {
       )}
 
       {/* Footer */}
-      <SiteFooter /></div>
+      <SiteFooter />
+    </div>
   );
 }
