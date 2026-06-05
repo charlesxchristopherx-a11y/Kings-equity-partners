@@ -91,8 +91,29 @@ export default function TermsPage() {
             <h2 className="text-lg font-semibold text-foreground mt-8">7. Right to File Directly</h2>
             <p>All clients are advised in writing that they may file surplus claims directly with the Clerk of Court at no cost. Use of our services is entirely voluntary.</p>
 
-            <h2 className="text-lg font-semibold text-foreground mt-8">8. Surplus Recovery Statutes</h2>
-            <p>All services are provided in accordance with applicable state surplus recovery statutes governing the disbursement of tax deed and foreclosure sale proceeds. Deadlines vary by state.</p>
+            <h2 className="text-lg font-semibold text-foreground mt-8">8. Governing Surplus Recovery Statutes by State</h2>
+            <p>All services are provided in accordance with the applicable state statute governing surplus disbursement in the state where the property sale occurred. Key states where we operate:</p>
+            <div className="overflow-x-auto mt-3">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr className="border-b text-foreground">
+                    <th className="text-left py-2 pr-4 font-semibold">State</th>
+                    <th className="text-left py-2 pr-4 font-semibold">Statute / Authority</th>
+                    <th className="text-left py-2 font-semibold">Claim Deadline</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border">
+                  <tr><td className="py-2 pr-4">Florida</td><td className="py-2 pr-4">Fla. Stat. § 197.582</td><td className="py-2">120 days from Clerk's notice</td></tr>
+                  <tr><td className="py-2 pr-4">Georgia</td><td className="py-2 pr-4">O.C.G.A. § 48-4-5</td><td className="py-2">Varies by county</td></tr>
+                  <tr><td className="py-2 pr-4">Texas</td><td className="py-2 pr-4">Tex. Tax Code § 34.04</td><td className="py-2">2 years from sale date</td></tr>
+                  <tr><td className="py-2 pr-4">California</td><td className="py-2 pr-4">Cal. Rev. & Tax. Code § 4675</td><td className="py-2">1 year from sale date</td></tr>
+                  <tr><td className="py-2 pr-4">Illinois</td><td className="py-2 pr-4">35 ILCS 200/21-350</td><td className="py-2">Varies — within redemption period</td></tr>
+                  <tr><td className="py-2 pr-4">Michigan</td><td className="py-2 pr-4">MCL § 211.78t</td><td className="py-2">Varies by county</td></tr>
+                  <tr><td className="py-2 pr-4">Ohio</td><td className="py-2 pr-4">ORC § 5721.37</td><td className="py-2">Varies by county</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs mt-2">Deadlines listed are approximate. The applicable statute and deadline for your specific property will be confirmed in writing before we file any claim.</p>
 
             <h2 className="text-lg font-semibold text-foreground mt-8">9. Accuracy of Information</h2>
             <p>While we make reasonable efforts to ensure the accuracy of information on this website, we make no warranties that the content is current, complete, or free of errors. Surplus amounts are approximate and subject to the Clerk's final determination.</p>

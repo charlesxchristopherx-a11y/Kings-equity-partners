@@ -1,0 +1,8 @@
+name = "kings-equity-partners2"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-05-03"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kep-leads"
+database_id = "8b071f09-5ab9-4fbc-bd57-ac2a3ebac539"

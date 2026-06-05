@@ -1,7 +1,3 @@
-interface Env {
-  ZO_CLIENT_IDENTITY_TOKEN: string;
-}
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const onRequestPost = async (context: any) => {
   try {
@@ -61,6 +57,28 @@ export const onRequestPost = async (context: any) => {
     if (!zoResponse.ok) {
       const errText = await zoResponse.text();
       console.error("Zo API error:", zoResponse.status, errText);
+      // Still save to D1 even if email fails
+    }
+
+    // Save lead to D1 as backup regardless of email status
+    if (context.env.DB) {
+      try {
+        await context.env.DB.prepare(
+          "INSERT INTO leads (property_address, former_owner_name, phone, email, additional_info, sms_consent) VALUES (?, ?, ?, ?, ?, ?)"
+        ).bind(
+          propertyAddress,
+          formerOwnerName,
+          phone,
+          email,
+          additionalInfo || null,
+          smsConsent ? 1 : 0
+        ).run();
+      } catch (dbErr) {
+        console.error("D1 insert error:", dbErr);
+      }
+    }
+
+    if (!zoResponse.ok) {
       return Response.json({ error: "Email delivery failed. Please call us directly." }, { status: 502 });
     }
 
