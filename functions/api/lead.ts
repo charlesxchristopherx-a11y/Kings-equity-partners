@@ -8,11 +8,8 @@ export const onRequestPost = async (context: any) => {
       return Response.json({ error: "Missing required fields." }, { status: 400 });
     }
 
-    const zoToken = context.env.ZO_CLIENT_IDENTITY_TOKEN;
-    if (!zoToken) {
-      console.error("ZO_CLIENT_IDENTITY_TOKEN not configured");
-      return Response.json({ error: "Server configuration error. Please call us directly." }, { status: 500 });
-    }
+    const zoTokenRaw: string | undefined = context.env.ZO_CLIENT_IDENTITY_TOKEN;
+    const zoToken = zoTokenRaw ? (zoTokenRaw.startsWith("Bearer ") ? zoTokenRaw : `Bearer ${zoTokenRaw}`) : null;
 
     const subject = `New Surplus Assessment: ${formerOwnerName} — ${propertyAddress}`;
     const emailBody = [
@@ -42,25 +39,7 @@ export const onRequestPost = async (context: any) => {
       emailBody,
     ].join("\n");
 
-    const zoResponse = await fetch("https://api.zo.computer/zo/ask", {
-      method: "POST",
-      headers: {
-        "Authorization": zoToken,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        input: instruction,
-        model_name: "byok:4e9ac6e2-e29f-4677-9537-041605831867",
-      }),
-    });
-
-    if (!zoResponse.ok) {
-      const errText = await zoResponse.text();
-      console.error("Zo API error:", zoResponse.status, errText);
-      // Still save to D1 even if email fails
-    }
-
-    // Save lead to D1 as backup regardless of email status
+    // Save lead to D1 first — this is the source of truth
     if (context.env.DB) {
       try {
         await context.env.DB.prepare(
@@ -78,8 +57,29 @@ export const onRequestPost = async (context: any) => {
       }
     }
 
-    if (!zoResponse.ok) {
-      return Response.json({ error: "Email delivery failed. Please call us directly." }, { status: 502 });
+    // Send email notification — non-fatal if it fails (lead is already saved)
+    if (zoToken) {
+      try {
+        const zoResponse = await fetch("https://api.zo.computer/zo/ask", {
+          method: "POST",
+          headers: {
+            "Authorization": zoToken,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            input: instruction,
+            model_name: "byok:4e9ac6e2-e29f-4677-9537-041605831867",
+          }),
+        });
+        if (!zoResponse.ok) {
+          const errText = await zoResponse.text();
+          console.error("Zo API error:", zoResponse.status, errText);
+        }
+      } catch (emailErr) {
+        console.error("Email send error:", emailErr);
+      }
+    } else {
+      console.error("ZO_CLIENT_IDENTITY_TOKEN not configured — email skipped");
     }
 
     return Response.json({ success: true });
