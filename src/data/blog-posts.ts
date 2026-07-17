@@ -631,6 +631,63 @@ Our firm tracks unclaimed surplus funds across the country. Contact us for a fre
     tags: ["escheatment", "unclaimed property", "state treasury", "surplus funds"],
   },
   {
+    slug: "role-of-the-clerk-of-court-in-surplus-disbursement",
+    title: "The Role of the Clerk of Court in Florida Surplus Disbursement",
+    excerpt:
+      "The Clerk of Court is the neutral gatekeeper of surplus funds in Florida. Here's exactly what the Clerk does — and does not do — once a property sells at a tax deed auction for more than the taxes owed.",
+    content: `
+In Florida's tax deed surplus process, no party plays a more important — or more misunderstood — role than the Clerk of Court. The Clerk is the neutral gatekeeper of the funds, and the law gives them specific, limited responsibilities. Understanding what the Clerk actually does will help you know what to expect when you file a claim, and where their role ends.
+
+## Holding the Funds After the Sale
+
+When a property sells at a tax deed auction for more than the taxes owed, the surplus is deposited with the Clerk of Court in the county where the property is located. The Clerk does not initiate this process — they receive the funds as part of the auction settlement — but from that point forward, the funds are under their control.
+
+The Clerk's job at this stage is custodial: hold the money, track it, and disburse it to the rightful claimant under the terms of Florida law.
+
+## Sending the Notice of Surplus
+
+Within a defined window after the sale, the Clerk is required to mail a **Notice of Surplus Funds** to the former property owner of record. The notice includes the property address, the case number, the amount being held, and the deadline for filing a claim.
+
+This is a critical step because the 120-day clock under Florida Statute § 197.582 begins running on the date the Clerk mails the notice. If the notice is never received, the clock still runs.
+
+## Verifying the Claimant
+
+When a claim is filed, the Clerk must verify that the person filing is in fact the rightful owner of record at the time of the sale. The Clerk will review the public records, confirm identity, and check whether the claim form is complete and properly executed.
+
+The Clerk's role here is administrative verification, not investigation. They do not perform independent title searches, contact heirs, or evaluate competing claims beyond what is filed with their office.
+
+## Managing Competing Claims
+
+If more than one party files a claim — for example, a junior lienholder and the former owner — the Clerk is required to pause disbursement until the competing claims are resolved. The Clerk does not adjudicate disputes between claimants. Their job is to hold the funds safely while the parties work out who is entitled, or until a court issues an order directing disbursement.
+
+## Disbursing the Funds
+
+Once the Clerk has verified a valid claim and there are no competing filings, the funds are disbursed. The Clerk is responsible for issuing payment according to the split disbursement rules, sending 75% to the former owner and 25% to the third-party filer in cases where an Assignment of Beneficial Interest has been executed.
+
+## What the Clerk Does Not Do
+
+It is just as important to understand what the Clerk does not do:
+
+- **The Clerk does not find claimants.** If the Notice of Surplus is undeliverable, the funds stay in the Clerk's account until the deadline passes. The Clerk is not in the business of tracking down former owners.
+- **The Clerk does not provide legal advice.** They can explain forms and procedures, but they cannot tell you whether your claim is strong, whether a junior lienholder will file, or whether you should hire a firm.
+- **The Clerk does not negotiate settlements.** When competing claims exist, the Clerk holds the funds — they do not mediate the dispute.
+
+## Why This Matters for You
+
+The Clerk is a neutral administrator, not an advocate. If the former owner is unaware that funds are being held — which is true in the vast majority of cases — the funds will simply sit until the deadline passes and escheat to the county.
+
+This is why an active, informed claimant — or a third-party firm working on your behalf — is so important. The Clerk is there to do their part. Someone has to do yours.
+
+If you believe you may be owed surplus funds from a Florida tax deed sale, we can help you find out. Our contact form is the fastest way to start a free, no-obligation review of the public records.
+
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-06-05",
+    readTime: "5 min",
+    category: "Education",
+    tags: ["clerk of court", "surplus funds", "florida", "disbursement"],
+  },
+  {
     slug: "king-equity-partners-goes-national",
     title: "King's Equity Partners Goes National: What This Means for Surplus Recovery",
     excerpt:
@@ -685,6 +742,293 @@ The money is yours by law. We exist to make sure you receive it.
     readTime: "4 min",
     category: "Company News",
     tags: ["national", "expansion", "surplus funds", "company news"],
+  },
+  {
+    slug: "can-heirs-file-a-surplus-claim-for-deceased-owner",
+    title: "Can Heirs File a Surplus Claim on Behalf of a Deceased Owner?",
+    excerpt:
+      "If a property owner passes away after a tax deed sale but before surplus funds are claimed, the money does not disappear. Here's how Florida law treats heirs and personal representatives in the surplus claim process.",
+    content: `
+When a property sells at a tax deed auction in Florida, the surplus funds are held by the Clerk of Court and the former owner of record is notified. In many cases, the former owner has passed away by the time the notice is mailed. This raises an important question: can the heirs step in and claim the funds?
+
+The short answer is yes — but the process depends on the circumstances.
+
+## Who Has the Legal Right to Claim?
+
+Under Florida law, the right to claim surplus funds is treated like any other asset of the deceased. The funds pass through the estate, which means the person with legal authority to act for the estate can file the claim on behalf of the heirs.
+
+That authority is generally held by one of the following:
+
+- A **personal representative** named in a will that has been admitted to probate
+- An **administrator** appointed by a probate court when there is no will
+- A **trustee** of a trust that held the property at the time of the sale
+- The **surviving co-owner**, if the property was held in a form that passes automatically to the survivor (such as joint tenancy with right of survivorship)
+
+If you are an heir but none of these roles has been established, you may need to open a probate proceeding before you can file the claim. Many families delay probate for years, which can be a problem when a 120-day surplus deadline is already running.
+
+## What Documents Are Required?
+
+The Clerk of Court will not disburse surplus funds to a claimant who is not the owner of record. When the owner of record has passed away, the Clerk requires documentation that establishes the claimant's legal authority. Typical documents include:
+
+- A **certified copy of the death certificate**
+- **Letters of administration** or **letters testamentary** issued by a probate court
+- A **court order** that specifically authorizes the heir or personal representative to claim the funds
+- An **affidavit of heirship** in some smaller estates, depending on county procedure
+- The **surplus claim form** completed and notarized by the legally authorized party
+
+The exact documentation required varies by county, which is why a title review by someone familiar with the local Clerk's office is so important.
+
+## What If There Was No Probate?
+
+This is one of the most common situations we see. The owner passed away years ago, the property has long since been sold at tax deed, and the family never opened a formal probate estate. The heirs may not even know surplus funds exist.
+
+In these cases, the family generally has two options:
+
+1. **Open a summary administration** if the estate qualifies under Florida's simplified probate rules for smaller estates
+2. **File a petition for determination of heirs** in the circuit court to establish who is legally entitled to the surplus
+
+Both options are real legal processes, and both take time. The 120-day surplus deadline does not pause because the heirs were unaware of it. This is one of the most time-sensitive scenarios in surplus recovery.
+
+## Competing Claims From Multiple Heirs
+
+When there are several heirs, the Clerk will not disburse funds to one heir without documentation that the others have been satisfied. A **family settlement agreement** signed by all heirs, or a court order directing distribution, may be required.
+
+We have seen cases where a single heir files a claim and the others are not aware, only for the claim to be challenged weeks later. This is why we always recommend a clear, written agreement among heirs before any filing.
+
+## How a Third-Party Firm Can Help
+
+Heir cases are more complex than a simple self-filing, but they are absolutely recoverable. A firm like ours can:
+
+- Pull the death certificate and any prior probate filings
+- Coordinate with a probate attorney to open a summary administration if needed
+- Prepare and file the surplus claim with the correct supporting documents
+- Track the disbursement and ensure all heirs receive their share
+
+The contingency fee structure is the same. The estate pays nothing up front, and we only get paid when funds are recovered. If you believe a deceased family member may have been owed surplus funds from a Florida property, contact us for a free assessment.
+
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-06-12",
+    readTime: "5 min",
+    category: "Education",
+    tags: ["heirs", "probate", "deceased owner", "surplus funds"],
+  },
+  {
+    slug: "how-long-does-the-clerk-take-to-process-a-surplus-claim",
+    title: "How Long Does the Clerk Take to Process a Surplus Claim?",
+    excerpt:
+      "Filing a surplus claim is only the first step. The Clerk of Court must verify ownership, publish notice, wait out the objection window, and then disburse the funds. Here is a realistic timeline from claim to check.",
+    content: `
+After a Florida tax deed sale, the surplus funds are held by the Clerk of Court until the proper claimant comes forward. Once a claim is filed, most people expect their money within a few weeks. In reality, the process almost always takes longer, and the timing depends on a handful of predictable steps.
+
+## The 120-Day Owner Deadline Comes First
+
+Before the Clerk can disburse surplus funds to anyone, the original owner of record must be given the chance to claim them. Under Florida law, the Clerk publishes notice of the surplus and the former owner has 120 days from the date of the sale to file a claim.
+
+During this period, the Clerk cannot release the funds, even if a creditor or junior lienholder has already submitted a complete claim. The 120-day window is a hard statutory hold. Most claims that are ready at the end of the sale simply have to wait it out.
+
+## After the 120 Days, the Clock Starts Again
+
+Once the 120-day period has passed without a claim from the owner of record, the Clerk begins reviewing claims from other parties. This is where the real processing time begins. The typical stages are:
+
+- **Initial review of the claim packet** — usually 2 to 6 weeks depending on the county's workload
+- **Verification of the claimant's identity and ownership interest** — additional 2 to 4 weeks
+- **Confirmation that no owner claim was filed** — sometimes a separate step that takes another 1 to 3 weeks
+- **Approval and check cutting** — typically 1 to 4 weeks once everything is verified
+
+Adding those stages together, a clean and complete claim filed just after the 120-day period often takes another 8 to 16 weeks to be paid. Larger counties with more auctions tend to be slower, while smaller counties can move noticeably faster.
+
+## Factors That Slow Things Down
+
+A few common issues regularly extend the timeline:
+
+- **Missing or unsigned documents** — the Clerk will return incomplete packets rather than asking for clarification
+- **Heir claims without probate documents** — additional documentation has to be filed before the claim can be approved
+- **Junior lienholders or competing claims** — the Clerk must resolve who is entitled to what before any disbursement
+- **County backlog** — some Florida counties process surplus claims only once a month, which can add weeks on its own
+
+## Factors That Can Speed Things Up
+
+In our experience, the fastest claims share a few traits. The claim packet is complete and notarized on the first submission, the claimant is the owner of record with no probate issues, and the county's surplus clerk has a light queue at the time of filing. Working with a firm that knows each county's quirks and document requirements tends to eliminate most of the avoidable delays.
+
+## A Realistic Expectation
+
+From the date of the tax deed sale to the date the check is mailed, most successful surplus claims take somewhere between 6 and 9 months. Claims involving heirs, multiple parties, or junior lienholders regularly take longer. Anyone who promises you a specific disbursement date before the claim has been reviewed is guessing.
+
+The good news is that once the Clerk issues the check, the money is in your account or in the mail, and the process is finished. Patience and a complete filing are the two things that matter most.
+
+If you have surplus funds coming and want a realistic estimate for your specific county, we are happy to walk you through the timeline on a free consultation.
+
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-06-26",
+    readTime: "5 min",
+    category: "Education",
+    tags: ["clerk of court", "processing time", "timeline", "surplus funds"],
+  },
+  {
+    slug: "florida-counties-highest-surplus-volumes",
+    title: "Which Florida Counties Generate the Most Tax Deed Surplus?",
+    excerpt:
+      "Surplus funds are not distributed evenly across Florida. A handful of large, high-volume counties account for the majority of the money the Clerk holds, and understanding this concentration helps explain why outreach efforts focus where they do.",
+    content: `
+Not every Florida county produces the same amount of tax deed surplus. The total dollars held after tax deed sales vary dramatically from one county to the next, and a relatively small number of large counties account for the bulk of the funds that pass through the Clerk of Court each year.
+
+## Why Volume Varies by County
+
+Three main factors drive how much surplus a county generates:
+
+- **Tax deed sale volume** — counties that hold more auctions each year create more opportunities for surplus
+- **Property values in the tax sale pool** — higher-value properties that go to auction produce larger overages
+- **Rate of delinquency** — counties with more delinquent property taxes see more foreclosures, which in turn produce more surplus
+
+A small county with a handful of auctions a year might generate only a few thousand dollars in surplus. A large urban county with weekly auctions can produce millions.
+
+## The Counties That Lead the State
+
+Based on auction activity and reported surplus figures, the counties that consistently produce the highest tax deed surplus volumes include:
+
+- **Miami-Dade County** — the largest tax deed auction in the state by case count, driven by a high volume of delinquent condominium and single-family properties
+- **Broward County** — second in volume, with steady auctions and significant residential and commercial property values
+- **Palm Beach County** — high-value coastal properties produce large surpluses on a smaller number of auctions
+- **Hillsborough County** — Tampa Bay area, with strong auction volume and a mix of residential and commercial parcels
+- **Orange County** — Orlando area, where rapid development has increased tax assessments and the size of surpluses
+- **Duval County** — Jacksonville is one of the largest single-clerk jurisdictions in the state by land area
+- **Lee County** — Fort Myers area, with steady growth in property values pushing surplus amounts higher
+- **Polk County** — central Florida, with a large number of tax deed cases filed each year
+
+These eight counties alone are typically responsible for the majority of surplus dollars held by Florida Clerks at any given time.
+
+## What This Means for Former Owners
+
+For a former property owner, the practical takeaway is simple. If you once owned property in one of these high-volume counties and that property went through a tax deed sale, there is a meaningful chance that surplus funds were held after the auction. The larger the county, the higher the volume of cases reviewed, and the more likely it is that a notice was mailed and a deadline started running.
+
+Many former owners in these counties are owed surplus funds and never know it. Notices are sent by mail to the last address on file, and if that address is outdated, the owner may never see the letter. The funds are real, but reaching the rightful claimant is the hard part.
+
+## Why This Matters for Outreach
+
+From a recovery standpoint, this concentration shapes how the work is done. Firms that focus on these high-volume counties can build relationships with the Clerks, learn each office's process, and develop a system for tracking new filings. Smaller, lower-volume counties are not ignored, but they rarely produce the same scale of recoverable dollars.
+
+If you believe you may be owed surplus funds from a property in one of these counties, or anywhere in Florida, the earlier you check the records, the better your position. The 120-day deadline from the Clerk's notice starts running whether the notice reaches you or not.
+
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-07-03",
+    readTime: "5 min",
+    category: "Education",
+    tags: ["florida counties", "tax deed surplus", "high volume", "surplus funds"],
+  },
+  {
+    slug: "missed-the-120-day-deadline-what-to-do-next",
+    title: "What to Do If You Received a Surplus Notice but Missed the 120-Day Deadline",
+    excerpt:
+      "Missing the 120-day deadline under Florida Statute § 197.582 usually means the funds are gone — but in a narrow set of circumstances, options may still exist. Here is a realistic look at what is and is not possible after the window closes.",
+    content: `
+The 120-day deadline in Florida is firm, and most former owners who miss it lose their right to surplus funds permanently. That is the difficult truth at the center of every surplus recovery case. But "the deadline has passed" is not always the end of the story, and understanding the difference between a hard bar and a narrow exception can save a claim that looks lost.
+
+## What the Statute Actually Says
+
+Florida Statute § 197.582 gives the former owner of record 120 days from the date of the Clerk's Notice of Surplus to file a claim. After that window closes, the Clerk is required to turn the funds over to the county's general fund or, in some counties, to a dedicated unclaimed property account. The owner's legal interest in the money is extinguished.
+
+This is not a deadline a court will routinely extend. The statute does not allow for late filings based on hardship, lack of notice, or simple mistake. The Clerk's office has no discretion to accept a claim filed after day 120.
+
+## Why Missing the Deadline Is Common
+
+In our experience, the deadline is missed for the same handful of reasons over and over:
+
+- The notice was sent to an outdated mailing address and never arrived
+- The notice arrived but was set aside as junk mail or overlooked in a stack of tax sale correspondence
+- The owner was in the middle of a move, a divorce, a probate matter, or a health crisis and could not respond in time
+- The owner passed away and heirs did not learn of the surplus until months after the deadline had run
+
+None of these reasons, standing alone, are grounds to reopen a closed claim. The statute is clear, and the Clerk has no authority to forgive them.
+
+## Options That May Still Exist
+
+Even after the 120-day window has closed, there are a few narrow paths that can sometimes be pursued. They are not guarantees, and they require a specific factual situation.
+
+**Equitable relief in circuit court.** In limited cases, a claimant can file a petition in circuit court asking a judge to allow a late claim. Courts have granted this relief where there is clear and convincing evidence that the Clerk's notice was never actually mailed or was mailed to the wrong address due to a county error. This is rare, expensive, and outcome-dependent.
+
+**Claim against the county after escheat.** Once surplus funds escheat to the county, they may sit in an unclaimed property account for an additional period. The exact rules depend on the county, and in some cases the former owner can still file a claim directly with the county's unclaimed property division even after the Clerk's 120-day window has closed. This is not universally available, but it is worth checking.
+
+**Probate-side recovery for heirs.** If the former owner has passed away and the estate was never formally probated, the heirs may be able to open a probate proceeding and pursue a claim through the personal representative. The outcome depends on the county and the specific facts.
+
+**Settlement with a competing claimant.** If a junior lienholder or third party filed a timely claim and received the surplus, the former owner may be able to negotiate a private recovery from that party. This is not a legal right, but it is sometimes a practical option.
+
+## What Does Not Work
+
+A few common approaches that do not work after the deadline:
+
+- Calling the Clerk and asking for an exception — they do not have the authority to grant one
+- Filing a new claim "to be safe" — the Clerk will reject it as untimely
+- Sending a demand letter to the county — once funds have escheated, the county's position is statutory
+- Waiting for a refund or automatic disbursement — there is no such mechanism
+
+## The Best Step Is the First One
+
+The most important takeaway is that the 120-day deadline is real, and the best chance of recovery always comes from acting within the window. If you believe you have missed a deadline, the most productive next step is to confirm the exact facts: when the Clerk mailed the notice, when the 120 days actually ran, and whether the funds have already escheated. From there, an experienced recovery firm can tell you whether any of the narrow post-deadline options apply to your situation.
+
+If you have questions about a surplus claim where the deadline has already passed, we are happy to review the public records at no cost and tell you honestly whether any path forward remains.
+
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-07-10",
+    readTime: "5 min",
+    category: "Education",
+    tags: ["120 day deadline", "missed deadline", "surplus funds", "escheat"],
+  },
+
+  {
+    slug: "tax-sale-surplus-vs-foreclosure-surplus",
+    title: "Tax Sale Surplus vs. Foreclosure Surplus: What Is the Difference?",
+    excerpt:
+      "Both tax sales and mortgage foreclosures can create surplus funds, but the claims process is not the same. Here is how to tell which type of surplus may exist and what changes when the property is located outside Florida.",
+    content: `
+When a property is sold at auction for more than the debt and allowed costs, the extra money may become surplus funds. Two common sources are tax sales and mortgage foreclosures. They sound similar, but they involve different debts, government offices, documents, and deadlines.
+
+## Tax sale surplus
+
+A tax sale begins with unpaid property taxes or other public charges. If the property is sold for more than the amount needed to satisfy those charges and the costs of the sale, the remaining money may be held by a county clerk, treasurer, or another local office.
+
+The former owner is often the first person the office looks to when determining who may claim the funds. However, a mortgage company, judgment creditor, or other lienholder may also have an interest under the law of that state. The office may require a claim form, proof of identity, ownership records, and a notarized signature.
+
+Florida tax deed surplus claims are one example of this process. Florida's 120-day deadline is specific to its statutory framework. It should not be treated as a nationwide rule.
+
+## Foreclosure surplus
+
+A foreclosure surplus is created when a property is sold to satisfy a mortgage debt and the sale price exceeds the lender's judgment, approved costs, and any higher-priority claims. The money may be deposited with a court, sheriff, trustee, or clerk, depending on the state and the type of foreclosure.
+
+The former owner may be entitled to the remaining balance, but junior lienholders and other parties can affect the distribution. The claim may be handled inside the foreclosure case rather than through a tax deed surplus procedure. Some jurisdictions require a motion, petition, or court hearing instead of a simple administrative form.
+
+## The differences that matter
+
+The most important differences are:
+
+- **The underlying debt:** property taxes in a tax sale; a mortgage judgment in a foreclosure
+- **The office holding the money:** a county tax office, clerk, court, sheriff, or trustee
+- **The filing procedure:** an administrative claim in some cases; a court filing in others
+- **The deadline:** each state and claim type has its own deadline
+- **The priority rules:** liens, judgments, and sale costs may affect who receives funds first
+
+Because these details vary, a process that works in Florida may not work in Texas, Georgia, Ohio, Maryland, or another state.
+
+## What records should you gather?
+
+Start with the property address, the county and state, the former owner's name, the sale date, and any tax deed or foreclosure case number. Then identify the office holding the funds and ask whether the money is still there, whether a claim deadline is running, and which documents the office requires.
+
+Also ask whether the funds have already moved to a state or county unclaimed-property program. Once that happens, the claim may follow a different procedure.
+
+## A national review requires a state-specific answer
+
+King's Equity Partners now reviews surplus opportunities nationwide. We do not assume that every case follows Florida's rules. We identify the source of the surplus, locate the office holding the funds, check the applicable deadline, and review possible lien or ownership issues before discussing next steps.
+
+If you believe a tax sale or foreclosure may have produced surplus funds, reviewing the official records promptly is the safest place to start. This information is educational and is not legal advice.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-07-17",
+    readTime: "5 min",
+    category: "National",
+    tags: ["tax sale", "foreclosure", "surplus funds", "national"],
   },
 ];
 
