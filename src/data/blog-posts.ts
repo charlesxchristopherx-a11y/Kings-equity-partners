@@ -979,56 +979,54 @@ If you have questions about a surplus claim where the deadline has already passe
   },
 
   {
-    slug: "tax-sale-surplus-vs-foreclosure-surplus",
-    title: "Tax Sale Surplus vs. Foreclosure Surplus: What Is the Difference?",
+    slug: "how-to-check-national-surplus-funds-records",
+    title: "How to Check Whether a Property Sale Created Surplus Funds in Another State",
     excerpt:
-      "Both tax sales and mortgage foreclosures can create surplus funds, but the claims process is not the same. Here is how to tell which type of surplus may exist and what changes when the property is located outside Florida.",
+      "Surplus recovery is no longer limited to Florida. If a tax sale or foreclosure involved property you owned in another state, these records can help you find out whether excess proceeds are still being held.",
     content: `
-When a property is sold at auction for more than the debt and allowed costs, the extra money may become surplus funds. Two common sources are tax sales and mortgage foreclosures. They sound similar, but they involve different debts, government offices, documents, and deadlines.
+Florida is often associated with tax deed surplus claims, but property-sale surpluses also occur across the country. The terminology and filing process change from state to state. A county may call the money excess proceeds, overage, surplus funds, or an unapplied balance. The first step is to identify the sale and the office responsible for the funds.
 
-## Tax sale surplus
+## Start with the property records
 
-A tax sale begins with unpaid property taxes or other public charges. If the property is sold for more than the amount needed to satisfy those charges and the costs of the sale, the remaining money may be held by a county clerk, treasurer, or another local office.
+Gather the property address, the county and state, the former owner's name, and an approximate date of the tax sale or foreclosure. If you have a notice, deed, court document, mortgage statement, or auction record, keep the case number with your notes.
 
-The former owner is often the first person the office looks to when determining who may claim the funds. However, a mortgage company, judgment creditor, or other lienholder may also have an interest under the law of that state. The office may require a claim form, proof of identity, ownership records, and a notarized signature.
+Search the official website for the county clerk, treasurer, sheriff, tax collector, or court. Use terms such as "tax sale surplus," "excess proceeds," "foreclosure surplus," and "unclaimed funds." Some offices publish a list. Others require a written request or a search by case number.
 
-Florida tax deed surplus claims are one example of this process. Florida's 120-day deadline is specific to its statutory framework. It should not be treated as a nationwide rule.
+## Identify the event that created the surplus
 
-## Foreclosure surplus
+A tax sale usually follows unpaid property taxes or other public charges. A foreclosure sale follows a mortgage judgment or another secured debt. The distinction matters because different offices may hold the money and different procedures may apply.
 
-A foreclosure surplus is created when a property is sold to satisfy a mortgage debt and the sale price exceeds the lender's judgment, approved costs, and any higher-priority claims. The money may be deposited with a court, sheriff, trustee, or clerk, depending on the state and the type of foreclosure.
+For example, a tax-sale surplus might be handled by a county treasurer, while a foreclosure surplus may remain in the court case or be deposited with a sheriff or trustee. Do not assume that a tax deed claim form will work for a mortgage foreclosure.
 
-The former owner may be entitled to the remaining balance, but junior lienholders and other parties can affect the distribution. The claim may be handled inside the foreclosure case rather than through a tax deed surplus procedure. Some jurisdictions require a motion, petition, or court hearing instead of a simple administrative form.
+## Confirm that the funds are still available
 
-## The differences that matter
+A public list is only a starting point. Ask the responsible office:
 
-The most important differences are:
+- Whether the sale produced excess proceeds
+- The current amount being held, if the office can provide it
+- The deadline and method for filing a claim
+- Whether the money has moved to a state or county unclaimed-property program
+- Whether other lienholders or claimants are listed
 
-- **The underlying debt:** property taxes in a tax sale; a mortgage judgment in a foreclosure
-- **The office holding the money:** a county tax office, clerk, court, sheriff, or trustee
-- **The filing procedure:** an administrative claim in some cases; a court filing in others
-- **The deadline:** each state and claim type has its own deadline
-- **The priority rules:** liens, judgments, and sale costs may affect who receives funds first
+Keep copies of your requests and the responses. Record the name of the office, the date you contacted it, and any case or reference number.
 
-Because these details vary, a process that works in Florida may not work in Texas, Georgia, Ohio, Maryland, or another state.
+## Gather proof before filing
 
-## What records should you gather?
+The office may require proof that the claimant was the former owner or is a lawful successor. Common documents include government-issued identification, ownership records, a death certificate and probate documents for an heir, a notarized claim form, and a completed tax form. Requirements differ, so obtain the current instructions directly from the office holding the funds.
 
-Start with the property address, the county and state, the former owner's name, the sale date, and any tax deed or foreclosure case number. Then identify the office holding the funds and ask whether the money is still there, whether a claim deadline is running, and which documents the office requires.
+A deadline that applies in one state may not apply in another. Florida's 120-day surplus-notice rule should not be treated as a national deadline. Some jurisdictions use a court motion, while others use an administrative application. Filing with the wrong office or using the wrong procedure can delay review.
 
-Also ask whether the funds have already moved to a state or county unclaimed-property program. Once that happens, the claim may follow a different procedure.
+## When a professional review may help
 
-## A national review requires a state-specific answer
+A national surplus search can involve multiple counties, older addresses, name changes, estate records, and lien questions. King's Equity Partners now reviews tax-sale and foreclosure surplus opportunities nationwide. We identify the sale type, locate the responsible office, and check the state-specific process before discussing available options.
 
-King's Equity Partners now reviews surplus opportunities nationwide. We do not assume that every case follows Florida's rules. We identify the source of the surplus, locate the office holding the funds, check the applicable deadline, and review possible lien or ownership issues before discussing next steps.
-
-If you believe a tax sale or foreclosure may have produced surplus funds, reviewing the official records promptly is the safest place to start. This information is educational and is not legal advice.
+You can begin with the official records yourself. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
     `.trim(),
     author: "Charles King III",
-    date: "2026-07-17",
+    date: "2026-07-24",
     readTime: "5 min",
     category: "National",
-    tags: ["tax sale", "foreclosure", "surplus funds", "national"],
+    tags: ["surplus funds", "tax sale", "foreclosure", "national", "public records"],
   },
 ];
 
