@@ -979,6 +979,87 @@ If you have questions about a surplus claim where the deadline has already passe
   },
 
   {
+    slug: "what-to-do-after-a-national-tax-sale-or-foreclosure",
+    title: "What to Do After a Tax Sale or Foreclosure in Another State",
+    excerpt:
+      "Surplus recovery rules vary by state. These practical steps can help former property owners preserve records, identify the office holding excess proceeds, and avoid relying on Florida deadlines elsewhere.",
+    content: `
+Losing property through a tax sale or foreclosure can leave former owners with unanswered questions. One of the most important is whether the sale produced more money than the taxes, mortgage, or other approved charges. If it did, the excess may be called surplus funds, excess proceeds, or an overage.
+
+The process is different in every state. A Florida tax deed rule should not be assumed to apply to a property sale in another jurisdiction. Start by identifying the sale, the office holding the money, and the deadline that controls the claim.
+
+## Confirm what kind of sale occurred
+
+A tax sale usually follows unpaid property taxes or related public charges. A foreclosure sale usually follows a mortgage or other secured debt. The same property may appear in records for both a tax matter and a foreclosure, but the responsible office and claim procedure may be different.
+
+Gather the property address, county, state, former owner's name, approximate sale date, and any case number. Keep the sale notice, deed, court papers, mortgage records, and letters from government offices together. These details make it easier to distinguish the correct proceeding from similarly named records.
+
+## Find the office holding the funds
+
+Search the official website for the county treasurer, tax collector, clerk of court, sheriff, trustee, or court that handled the sale. Try terms such as "tax sale surplus," "excess proceeds," "foreclosure surplus," and "unclaimed funds." Some offices publish lists of sales and balances. Others require a written request or a search using a case number.
+
+Ask the responsible office whether the sale generated excess proceeds, whether funds are still being held, and which form or court procedure is required. Also ask whether the money has been transferred to a state or county unclaimed-property program.
+
+## Verify the deadline before filing
+
+Deadlines can be measured from the sale date, a court order, a mailed notice, or a later transfer of the funds. They can also differ depending on whether the claimant is the former owner, an heir, a lienholder, or an assignee. Write down the date of every notice and response, but do not assume that the date you received a letter controls unless the applicable rule says so.
+
+Florida's 120-day period for certain surplus claims is not a nationwide deadline. Before sending documents, obtain the current instructions from the office holding the money or review the applicable state law. Filing with the wrong office or using a form from another state can cause delay.
+
+## Prepare proof of ownership or succession
+
+A claim may require identification, prior ownership records, a notarized form, tax information, or proof that an heir or personal representative may act for a deceased owner. Requirements vary widely. If a lien, estate, bankruptcy, or competing claimant is involved, additional review may be necessary.
+
+A careful records search is the best starting point. King's Equity Partners reviews tax-sale and foreclosure surplus opportunities nationwide and checks the state-specific process before discussing a possible claim. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-08-07",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus funds", "tax sale", "foreclosure", "national", "public records"],
+  },
+  {
+    slug: "how-surplus-fund-deadlines-vary-by-state",
+    title: "How Surplus-Fund Deadlines Vary by State",
+    excerpt:
+      "A surplus deadline that applies in Florida may not apply to a property sale in another state. Learn what to check before filing a tax-sale or foreclosure surplus claim nationwide.",
+    content: `
+If a tax sale or foreclosure creates excess proceeds, the former owner may have a path to claim them. The deadline, however, depends on the state and the type of sale. Florida's 120-day period after a Notice of Surplus is important for Florida tax deed claims, but it is not a national rule.
+
+## Why the deadline depends on the state
+
+Each state sets its own process for handling excess proceeds. A tax sale may be administered by a county tax collector, treasurer, sheriff, or clerk. A foreclosure surplus may remain in a court case, be held by a sheriff or trustee, or later move to an unclaimed-property office.
+
+Those differences affect both the filing deadline and the paperwork. One jurisdiction may require a claim within a fixed number of days after notice. Another may give the former owner a longer period measured from the sale, a court order, or a separate notice. Some claims require a court filing rather than an administrative form.
+
+## What to find before relying on a deadline
+
+Before deciding that a claim is timely, confirm these facts:
+
+- **What kind of sale occurred?** Tax-sale and foreclosure procedures are often separate.
+- **Where are the funds held?** The responsible office may be different from the office that conducted the sale.
+- **When did the clock start?** The trigger may be the sale date, a mailed notice, a court order, or a later transfer to unclaimed property.
+- **Which rule applies to the claimant?** Former owners, heirs, lienholders, and assignees may have different documentation requirements.
+- **Has the money moved?** Funds not claimed at the county or court level may later be reported to a state unclaimed-property program.
+
+Keep the sale notice, case number, correspondence, and proof of ownership together. Write down the date each notice was mailed or received, but do not assume that the date you received it controls unless the applicable rule says so.
+
+## How to verify the process
+
+Start with the official website for the county court, treasurer, tax collector, sheriff, or trustee. Search for the property's county, the sale type, and terms such as "excess proceeds," "surplus funds," or "unclaimed funds." If the instructions are unclear, contact the office holding the money and ask for the current claim procedure and deadline in writing.
+
+A national search requires separate checks for each property and jurisdiction. A form or deadline from one state should not be reused in another without confirmation. If an estate, lien, or competing claimant is involved, the required documents and procedure may be more involved.
+
+King's Equity Partners reviews tax-sale and foreclosure surplus opportunities nationwide. We identify the sale type, locate the responsible office, and review the applicable process before discussing a possible claim. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-07-31",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus funds", "deadlines", "tax sale", "foreclosure", "national"],
+  },
+
+  {
     slug: "how-to-check-national-surplus-funds-records",
     title: "How to Check Whether a Property Sale Created Surplus Funds in Another State",
     excerpt:
