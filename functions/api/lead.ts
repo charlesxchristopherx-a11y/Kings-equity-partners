@@ -33,7 +33,6 @@ export const onRequestPost = async (context: any) => {
       "Send an email using the Gmail connection now.",
       "",
       `To: charlesxchristopherx@gmail.com`,
-      `Cc: charleskingiii29@gmail.com`,
       `Subject: ${subject}`,
       "Body:",
       emailBody,
