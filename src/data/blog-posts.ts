@@ -1109,6 +1109,137 @@ You can begin with the official records yourself. This article is general educat
     category: "National",
     tags: ["surplus funds", "tax sale", "foreclosure", "national", "public records"],
   },
+  {
+    slug: "documents-needed-for-national-surplus-claim",
+    title: "What Documents May Be Needed for a National Surplus Claim?",
+    excerpt:
+      "A surplus claim may require more than a completed form. Learn which ownership, identity, estate, and sale records are commonly requested when a tax sale or foreclosure occurs outside Florida.",
+    content: `
+A tax sale or foreclosure surplus claim usually starts with a claim form, but the responsible office may ask for additional records before releasing money. Requirements vary by state, county, sale type, and claimant. Gathering the basic documents early can help you understand what is missing and avoid sending sensitive information to the wrong office.
+
+## Start with proof of identity
+
+Most offices require a government-issued photo identification document. The name on the identification should match the former owner's name in the public records, or you should be prepared to explain a name change. A marriage certificate, divorce decree, or court order may help connect two versions of a person's name.
+
+Do not send an original identity document unless the office's written instructions specifically require it. Use the official mailing address or online submission method listed by the office holding the funds.
+
+## Show the connection to the property or sale
+
+The office may request records showing that the claimant owned the property or held an interest when the sale occurred. Depending on the jurisdiction, useful records may include:
+
+- A recorded deed or property tax record
+- The tax sale certificate, tax deed, foreclosure judgment, or auction notice
+- The court case number or sale reference number
+- A closing statement, mortgage record, or other document identifying the former owner
+
+A property address alone may not be enough. Offices often need the legal owner's name and a document that connects that person to the specific sale.
+
+## Prepare for estate or successor claims
+
+If the former owner died, an heir or personal representative may need a death certificate, probate records, letters of administration, a will, or documentation showing the right to act for the estate. The required proof depends on state law and whether probate has been opened.
+
+Do not assume that being a relative automatically gives someone authority to collect the funds. The office may require records identifying all heirs or a court-appointed representative. When an estate is involved, professional legal advice may be appropriate.
+
+## Account for liens and other claimants
+
+A junior lienholder, judgment creditor, or other interested party may have a claim against surplus proceeds. The responsible office may request lien releases, payoff information, a court order, or documents showing the priority of competing interests. A claimant should not sign a statement about liens without reviewing the applicable records and instructions.
+
+## Check the current instructions
+
+Document lists are not identical across the country. A Florida tax deed claim packet should not be used for a foreclosure surplus in another state without confirming the local procedure. Ask the office holding the funds for its current form, deadline, notarization rules, mailing address, and required attachments.
+
+Make copies of everything you submit and keep proof of delivery. King's Equity Partners reviews tax-sale and foreclosure surplus opportunities nationwide, including the responsible office and state-specific claim process, before discussing available options. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-08-21",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus claim", "documents", "tax sale", "foreclosure", "national"],
+  },
+  {
+    slug: "what-happens-after-a-national-surplus-claim-is-filed",
+    title: "What Happens After You File a National Surplus Claim?",
+    excerpt:
+      "Filing a tax-sale or foreclosure surplus claim is only the beginning. Learn what usually happens next, which records may be reviewed, and why the timeline depends on the state and type of sale.",
+    content: `
+Submitting a surplus claim does not always lead to an immediate payment. After a tax sale or foreclosure, the office holding the excess proceeds must review the claim under the rules for that state and type of sale. The next steps can be administrative, court-based, or a combination of both.
+
+## The office checks the claim packet
+
+The first review usually focuses on whether the form is complete and whether the claimant appears to have the right connection to the property or sale. The reviewer may check the claimant's name, address, identification, signature, notarization, case number, and supporting ownership records.
+
+If the former owner has died, the office may also review a death certificate, probate documents, letters of administration, or other proof of authority. A family relationship by itself may not establish the right to receive the funds. Each state has its own rules for heirs, personal representatives, and successors.
+
+## The office may notify other interested parties
+
+Surplus proceeds can involve more than one possible claimant. A mortgage holder, junior lienholder, judgment creditor, bankruptcy trustee, or another party may assert an interest in the money. The responsible office may send notices, request additional documents, or wait for a court to decide competing claims.
+
+That does not mean a claim will fail. It means the funds may not be released until the priority or validity of the competing interests is resolved. A claimant should not assume that an amount shown on a public sale record is the amount they will receive.
+
+## The claim may be approved, returned, or sent to court
+
+After review, the office may approve the claim, ask for corrections, return an incomplete packet, or require a court filing. Some jurisdictions use an administrative application. Others require a motion, petition, hearing, or judge's order, particularly when the ownership history or competing claims are disputed.
+
+If the packet is returned, read the reason carefully and note any new deadline. Correcting a missing signature is different from responding to a lien dispute or an estate issue. Keep copies of the submitted documents, delivery confirmation, and all correspondence.
+
+## Payment timing varies widely
+
+There is no single national processing time. A straightforward claim may move in weeks, while a claim involving an estate, lien, court hearing, or incomplete records may take substantially longer. The office holding the money can provide the most reliable status information for that specific case.
+
+Before filing, confirm the office's current instructions, required documents, deadline, payment method, and contact procedure. Do not rely on Florida's 120-day rule when the property sale occurred elsewhere. Tax-sale and foreclosure surplus procedures can differ even within the same state.
+
+King's Equity Partners reviews tax-sale and foreclosure surplus opportunities nationwide. We identify the sale type, locate the responsible office, and review the applicable state process before discussing available options. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-08-28",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus claim", "tax sale", "foreclosure", "national", "claim process"],
+  },
+  {
+    slug: "why-the-name-on-the-property-record-matters",
+    title: "Why the Name on the Property Record Matters in a National Surplus Claim",
+    excerpt:
+      "A name mismatch can slow a tax-sale or foreclosure surplus claim, but it does not always mean the claim is impossible. Learn which records can help connect your identity to the property and why the responsible office's requirements control.",
+    content: `
+Public records do not always show a property owner's name exactly as it appears on a current driver's license or tax document. A middle name may be missing. A former last name may still appear on a deed. The property may have been held jointly, through a trust, or by a company. These differences matter when someone asks an office to release surplus proceeds.
+
+## The relevant name is tied to the sale
+
+A claim usually depends on showing who owned the property or held a recognized interest when the tax sale or foreclosure occurred. The name on a recent record is helpful, but it may not answer every question. The responsible office may review the deed, tax records, foreclosure case, tax sale documents, or other records connected to the specific sale.
+
+For example, a person may have bought the property under one name and later changed their name. Two spouses may appear as co-owners. A trust or limited liability company may be listed instead of an individual. If the former owner died, an heir or personal representative may need to show both the deceased owner's connection to the property and the authority to act.
+
+## Common name issues
+
+A reviewer may ask for more information when:
+
+- The claim form uses a different spelling or name format than the deed
+- The owner changed their name after the deed was recorded
+- The property was owned by more than one person
+- A trust, estate, or business entity appears in the ownership records
+- The claimant is an heir, successor, or authorized representative
+
+A name difference is not automatically a rejection. It is a signal to gather the records that explain the connection before filing.
+
+## Records that may help
+
+Depending on the jurisdiction and sale type, useful documents may include a recorded deed, government-issued identification, a marriage certificate or court order showing a name change, trust or entity records, a death certificate, probate documents, or a document appointing a personal representative. The office holding the funds decides which documents it will accept and whether notarization, certified copies, or additional forms are required.
+
+Do not send sensitive documents to a person or company simply because they say money is available. Confirm the sale and the responsible office through reliable public records, then use the office's current instructions for submitting a claim. Keep copies of everything you send and proof of delivery.
+
+## National claims require local instructions
+
+There is no single national form for tax-sale and foreclosure surplus claims. A county clerk's process in Florida may differ from a county treasurer's or court's process in another state. Deadlines, successor rules, document requirements, and payment procedures can vary even when the underlying issue looks similar.
+
+King's Equity Partners reviews tax-sale and foreclosure surplus opportunities nationwide. We identify the sale type, review the ownership records, and locate the responsible office before discussing available options. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-09-04",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus claim", "ownership records", "tax sale", "foreclosure", "national"],
+  },
 ];
 
 export function getBlogPosts(): BlogPost[] {
