@@ -1240,6 +1240,53 @@ King's Equity Partners reviews tax-sale and foreclosure surplus opportunities na
     category: "National",
     tags: ["surplus claim", "ownership records", "tax sale", "foreclosure", "national"],
   },
+
+  {
+    slug: "how-to-verify-a-national-surplus-claim-notice",
+    title: "How to Verify a National Surplus Claim Notice Before Sharing Personal Information",
+    excerpt:
+      "A letter or phone call about surplus funds may be legitimate, but you should verify the underlying sale before sharing sensitive information. Learn which records to check and what questions to ask.",
+    content: `
+A notice about tax-sale or foreclosure surplus funds can be important. It can also be confusing, especially when it arrives by mail, email, or telephone from someone you do not know. Before sharing your Social Security number, bank information, identification, or signed documents, take time to verify that the underlying property sale and surplus are real.
+
+## Start with the property and sale
+
+Ask for the property address, the county or other local jurisdiction, the sale date, the case or file number, and the name of the public office holding the funds. A legitimate explanation should give you enough information to check the matter independently. Be cautious if the person will not identify the property or only gives a dollar amount without explaining how it was calculated.
+
+Use the official website for the county clerk, court, treasurer, tax collector, sheriff, or other office responsible for the sale. Do not rely only on a link or telephone number supplied in an unsolicited message. Search for the office separately and use the contact information published on its official website.
+
+## Confirm the record directly
+
+Ask the responsible office whether the property was sold through a tax sale or foreclosure and whether excess proceeds are being held. Procedures vary by state and by sale type. Some offices publish surplus lists online. Others require a written request or a search using the case number.
+
+Confirm the following details:
+
+- The property address and former owner's name
+- The sale date and sale type
+- The amount of surplus, if the office will disclose it
+- The deadline and filing method
+- The documents the office requires from a claimant
+
+The office may not discuss every detail with a third party. That does not make a claim invalid. It means you should ask what information the owner or authorized representative must provide directly.
+
+## Protect your personal information
+
+Do not send sensitive information simply to find out whether a surplus exists. First verify the public record and understand why each document is needed. Never share passwords, online banking credentials, or a payment to release funds. Be especially careful with requests for an upfront fee, wire transfer, gift card, cryptocurrency, or access to a bank account.
+
+If you work with a recovery company, read the agreement before signing. It should identify the property or claim, explain the fee, state what services will be provided, and tell you that you may have the right to contact the responsible office yourself. Keep a copy of every document and note when it was signed.
+
+## National claims require local rules
+
+There is no single nationwide surplus-claim form or deadline. A process that applies in Florida may not apply to a property in another state. The responsible public office controls the current instructions, deadlines, and acceptable proof.
+
+King's Equity Partners reviews tax-sale and foreclosure surplus opportunities nationwide. We identify the sale, locate the responsible office, and explain the available information before discussing next steps. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-09-11",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus claim", "consumer protection", "tax sale", "foreclosure", "national"],
+  },
 ];
 
 export function getBlogPosts(): BlogPost[] {
