@@ -239,7 +239,7 @@ export default function HomePage() {
                             onChange={(e) => setForm({ ...form, smsConsent: e.target.checked })}
                           />
                           <span className="text-xs text-muted-foreground leading-relaxed">
-                            By checking this box, I consent to receive SMS text messages from King&apos;s Equity Partners regarding my surplus claim. Message frequency may vary. Message and data rates may apply. Consent is not a condition of purchase. Reply STOP to opt out, HELP for help. See our <Link to="/privacy" className="underline hover:text-foreground">Privacy Policy</Link> and <Link to="/terms" className="underline hover:text-foreground">Terms &amp; Conditions</Link>.
+                            By checking this box, I consent to receive SMS text messages from King&apos;s Equity Partners LLC regarding a potential surplus claim involving me or a family member. Message frequency may vary. Message and data rates may apply. Consent is not a condition of purchase. Reply STOP to opt out or HELP for help. See our <Link to="/privacy" className="underline hover:text-foreground">Privacy Policy</Link> and <Link to="/terms" className="underline hover:text-foreground">Terms &amp; Conditions</Link>.
                           </span>
                         </label>
                       </div>
