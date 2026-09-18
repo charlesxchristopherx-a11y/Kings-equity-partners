@@ -1287,6 +1287,46 @@ King's Equity Partners reviews tax-sale and foreclosure surplus opportunities na
     category: "National",
     tags: ["surplus claim", "consumer protection", "tax sale", "foreclosure", "national"],
   },
+  {
+    slug: "how-to-compare-national-surplus-recovery-agreements",
+    title: "How to Compare Surplus Recovery Agreements Before You Sign",
+    excerpt:
+      "A surplus recovery agreement can affect how a claim is handled and how much of any payment you keep. Before signing, compare the fee, the services, the claim details, and the protections in the agreement.",
+    content: `
+If someone contacts you about tax-sale or foreclosure surplus funds, they may offer to help investigate the claim or file paperwork. A written agreement should make that offer clear. Before signing, compare the terms with the option of contacting the responsible public office yourself.
+
+## Confirm what claim the agreement covers
+
+The agreement should identify the property, sale, case number, or other information that defines the claim. A general promise to search for money is different from an agreement tied to a specific surplus record. Ask which office is holding the funds and what the company has already verified.
+
+For a national claim, confirm whether the agreement covers a tax sale, a mortgage foreclosure, or another type of proceeding. The process may be controlled by a county clerk, court, treasurer, sheriff, trustee, or state unclaimed-property office. The responsible office and sale type affect the documents, deadlines, and filing method.
+
+## Look closely at the fee
+
+The agreement should state how the fee is calculated and when it becomes due. Check whether the percentage applies to the gross amount, the amount actually paid, or another figure. Look for separate charges for records, notarization, postage, title work, or other services.
+
+Ask what happens if no funds are found, the claim is denied, another claimant has priority, or the funds have already been paid. A fee provision that is difficult to understand deserves clarification before you sign.
+
+## Understand the services and authority
+
+A useful agreement explains what the company will do. Services may include reviewing public records, contacting the responsible office, preparing forms, monitoring a filing, or communicating with the claimant. It should also explain what the company will not do.
+
+Read any language that gives another person the right to sign documents, receive notices, endorse a check, or communicate with the office in your name. An assignment of beneficial interest may transfer rights to proceeds, so do not treat it as ordinary authorization. Read the entire document and obtain professional advice if you do not understand its effect.
+
+## Protect your information and your ability to decide
+
+Do not provide passwords, online banking credentials, or payment to release surplus funds. Ask why each requested document is needed, how it will be stored, and whether it will be returned or destroyed. Use the official public office's contact information to verify the sale independently.
+
+Keep a complete copy of the agreement, attachments, notices, and messages. Confirm whether there is a cancellation period, how notice must be given, and whether the agreement selects a particular state's law or forum.
+
+King's Equity Partners reviews tax-sale and foreclosure surplus opportunities nationwide. We identify the sale type, locate the responsible office, and explain the available information before discussing possible next steps. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-09-18",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus recovery", "consumer protection", "agreements", "tax sale", "foreclosure", "national"],
+  }
 ];
 
 export function getBlogPosts(): BlogPost[] {
