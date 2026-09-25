@@ -1326,7 +1326,43 @@ King's Equity Partners reviews tax-sale and foreclosure surplus opportunities na
     readTime: "5 min",
     category: "National",
     tags: ["surplus recovery", "consumer protection", "agreements", "tax sale", "foreclosure", "national"],
-  }
+  },
+  {
+    slug: "questions-to-ask-surplus-funds-office",
+    title: "What to Ask the Public Office Holding Surplus Funds",
+    excerpt:
+      "Before filing a tax-sale or foreclosure surplus claim, confirm the sale, the office holding the proceeds, the deadline, and the required paperwork. These questions can help you get useful answers without assuming every state follows the same process.",
+    content: `
+A letter or online record may suggest that a property sale created surplus proceeds, but it may not explain how to claim them. The public office responsible for the sale or funds is the best place to confirm the current procedure. Depending on the state and sale type, that office may be a court clerk, treasurer, sheriff, or another agency.
+
+Before you call or write, gather the property address, former owner's name, sale date, and any case or file number you have. Use contact information from the office's official website, rather than relying only on details in an unsolicited message.
+
+## Confirm the sale and the money
+
+Ask whether the office's records show the property sale and whether proceeds remain available. Request the case number or other reference number, the sale type, and the name of the office handling the funds. If the amount is not public or cannot be confirmed by phone, ask how the owner can verify it.
+
+A sale price by itself does not establish how much a claimant will receive. Costs, liens, other claims, or court decisions may affect distribution. Ask what public record or order explains the amount being held and whether another party has asserted an interest.
+
+## Ask which deadline and form apply
+
+Do not assume that a deadline or form used in one state applies to a property elsewhere. Ask the office to identify the filing deadline, what event starts the clock, and where that date appears in the case or agency record. If the office cannot calculate the deadline for you, ask which notice or docket entry contains the relevant date.
+
+Then ask for the current claim form and instructions. Confirm how to submit it, whether an original signature or notarization is required, and what proof of ownership or identity must accompany it. If the former owner has died, or the property was held by a trust or business, ask which documents the office requires from an heir, representative, trustee, or entity.
+
+## Make follow-up easier
+
+Before ending the conversation, ask how to confirm receipt, how to check for missing items, and whether the office provides a status contact or online case lookup. Write down the date, the name or unit of the person you spoke with, and any instructions. Keep copies of forms, delivery records, and letters together.
+
+Do not provide passwords, online banking credentials, or a payment to release funds. Verify the process directly with the public office before sending sensitive documents to a third party.
+
+King's Equity Partners offers surplus recovery services nationwide. Procedures differ by state, county, sale type, and case, so the responsible office's current instructions control. This article is general educational information, not legal advice, and does not guarantee that funds exist or that a claim will succeed.
+    `.trim(),
+    author: "Charles King III",
+    date: "2026-09-25",
+    readTime: "5 min",
+    category: "National",
+    tags: ["surplus claim", "public records", "claim process", "tax sale", "foreclosure", "national"],
+  },
 ];
 
 export function getBlogPosts(): BlogPost[] {
