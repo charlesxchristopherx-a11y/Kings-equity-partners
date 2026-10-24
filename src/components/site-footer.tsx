@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { IconPhone, IconMail, IconMapPin } from "@tabler/icons-react";
 
-const PHONE = "(727) 758-4543";
+const OFFICE_PHONE = "(954) 417-1479";
+const HELPLINE_PHONE = "(727) 758-4543";
 const EMAIL = "charles@kingsequitypartners.com";
 const ADDRESS = "7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702";
 
@@ -21,10 +22,16 @@ export default function SiteFooter() {
               Tax deed surplus recovery. We help former property owners recover funds owed to them by law — at no upfront cost.
             </p>
             <div className="mt-4 flex flex-col gap-2 text-sm">
-              <a href={`tel:${PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
-                <IconPhone className="h-4 w-4 text-primary shrink-0" />
-                {PHONE}
-              </a>
+              <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+                <a href={`tel:${OFFICE_PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                  <IconPhone className="h-4 w-4 text-primary shrink-0" />
+                  <span><span className="font-medium text-foreground">Office Business:</span> {OFFICE_PHONE}</span>
+                </a>
+                <a href={`tel:${HELPLINE_PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+                  <IconPhone className="h-4 w-4 text-primary shrink-0" />
+                  <span><span className="font-medium text-foreground">24 Hr Help Line:</span> {HELPLINE_PHONE}</span>
+                </a>
+              </div>
               <a href={`mailto:${EMAIL}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <IconMail className="h-4 w-4 text-primary shrink-0" />
                 {EMAIL}
