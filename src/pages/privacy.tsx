@@ -110,7 +110,7 @@ export default function PrivacyPage() {
             <div className="text-sm text-muted-foreground space-y-1">
               <p>7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702</p>
               <p>Office Business Phone: (954) 417-1479</p>
-              <p>24 Hr Help Line: (727) 758-4543</p>
+              <p>24 Hour Help Line: (954) 518-3374</p>
               <p>Email: charles@kingsequitypartners.com</p>
             </div>
           </div>

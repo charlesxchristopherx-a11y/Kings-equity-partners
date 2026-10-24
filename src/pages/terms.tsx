@@ -62,7 +62,7 @@ export default function TermsPage() {
               <p><strong>King's Equity Partners, LLC</strong></p>
               <p>7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702</p>
               <p>Office Business Phone: (954) 417-1479</p>
-              <p>24 Hr Help Line: (727) 758-4543</p>
+              <p>24 Hour Help Line: (954) 518-3374</p>
               <p>Email: charles@kingsequitypartners.com</p>
             </div>
 
@@ -76,7 +76,7 @@ export default function TermsPage() {
               <li><strong>Message frequency may vary.</strong> The number of messages you receive depends on your case activity.</li>
               <li><strong>Message and data rates may apply.</strong> Check with your mobile carrier for details on your plan.</li>
               <li><strong>Opt-out:</strong> Reply STOP to opt out of SMS messages at any time. After texting STOP, you will receive one final confirmation message and no further messages will be sent.</li>
-              <li><strong>Help:</strong> Reply HELP for help or contact us at charles@kingsequitypartners.com, (954) 417-1479 (office business line), or (727) 758-4543 (24 hr help line).</li>
+              <li><strong>Help:</strong> Reply HELP for help or contact us at charles@kingsequitypartners.com, (954) 417-1479 (office business line), or (954) 518-3374 (24 hour help line).</li>
               <li><strong>Consent is not a condition of purchase.</strong> You do not need to consent to SMS messages to use our services.</li>
             </ul>
 
@@ -131,7 +131,7 @@ export default function TermsPage() {
             <div className="text-sm text-muted-foreground space-y-1">
               <p>7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702</p>
               <p>Office Business Phone: (954) 417-1479</p>
-              <p>24 Hr Help Line: (727) 758-4543</p>
+              <p>24 Hour Help Line: (954) 518-3374</p>
               <p>Email: charles@kingsequitypartners.com</p>
             </div>
           </div>

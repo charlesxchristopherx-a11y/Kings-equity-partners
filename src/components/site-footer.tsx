@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { IconPhone, IconMail, IconMapPin } from "@tabler/icons-react";
 
 const OFFICE_PHONE = "(954) 417-1479";
-const HELPLINE_PHONE = "(727) 758-4543";
+const HELPLINE_PHONE = "(954) 518-3374";
 const EMAIL = "charles@kingsequitypartners.com";
 const ADDRESS = "7901 4TH ST N STE 300, ST. PETERSBURG, FL 33702";
 
@@ -29,7 +29,7 @@ export default function SiteFooter() {
                 </a>
                 <a href={`tel:${HELPLINE_PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                   <IconPhone className="h-4 w-4 text-primary shrink-0" />
-                  <span className="whitespace-nowrap"><span className="font-medium text-foreground">24 Hr Help Line:</span> {HELPLINE_PHONE}</span>
+                  <span className="whitespace-nowrap"><span className="font-medium text-foreground">24 Hour Help Line:</span> {HELPLINE_PHONE}</span>
                 </a>
               </div>
               <a href={`mailto:${EMAIL}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
