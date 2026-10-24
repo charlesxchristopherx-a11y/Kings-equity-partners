@@ -79,8 +79,8 @@ export default function ContactPage() {
       </section>
       <section className="border-b bg-muted/20 py-6">
         <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">
-          <a href={`tel:${OFFICE_PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"><IconPhone className="h-4 w-4 text-primary" /> <span><span className="font-semibold">Office Business:</span> {OFFICE_PHONE}</span></a>
-          <a href={`tel:${HELPLINE_PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"><IconPhone className="h-4 w-4 text-primary" /> <span><span className="font-semibold">24 Hr Help Line:</span> {HELPLINE_PHONE}</span></a>
+          <a href={`tel:${OFFICE_PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"><IconPhone className="h-4 w-4 text-primary" /> <span className="whitespace-nowrap"><span className="font-semibold">Office Business:</span> {OFFICE_PHONE}</span></a>
+          <a href={`tel:${HELPLINE_PHONE.replace(/\D/g, "")}`} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"><IconPhone className="h-4 w-4 text-primary" /> <span className="whitespace-nowrap"><span className="font-semibold">24 Hr Help Line:</span> {HELPLINE_PHONE}</span></a>
           <a href={`mailto:${EMAIL}`} className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"><IconMail className="h-4 w-4 text-primary" /> {EMAIL}</a>
           <div className="flex items-center gap-2 text-sm text-muted-foreground"><IconMapPin className="h-4 w-4 text-primary" /> {ADDRESS}</div>
         </div>
